@@ -1,0 +1,32 @@
+.cvs {
+  background: black !important;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 56px;
+  width: 100vw;
+  min-height: calc(100vh - 56px);
+  padding: 2px;
+}
+
+header {
+  background: var(--yellow);
+  color: black;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 30px;
+  padding-left: 12px;
+}
+.dtc-header {
+  display: grid;
+  height: 32px;
+  grid-template-columns: 190px max-content max-content;
+}
+
+.sonar /deep/ .custom-control-label {
+  &::after,
+  &::before {
+    transform: translateY(3px);
+  }
+}
+
+@import './colors.scss';

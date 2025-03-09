@@ -1,0 +1,481 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="156" height="119" viewBox="0 0 156 119">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a726ab"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-15" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b447b7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-27" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dd48e2"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="_" x="58.067" y="1.708" width="31" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-醫學中心">
+      <rect width="156" height="119"/>
+    </clipPath>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+  </defs>
+  <g id="醫學中心" clip-path="url(#clip-醫學中心)">
+    <g id="组_13006" data-name="组 13006" transform="translate(1.923 1.667)">
+      <g id="组_9887" data-name="组 9887" transform="translate(41.096)">
+        <path id="路径_18667" data-name="路径 18667" d="M63.4,0H0V75.5l7.221,7.614H74.038V6.88Z" transform="translate(0)" fill="#a726ab"/>
+        <rect id="矩形_4808" data-name="矩形 4808" width="65.373" height="53.946" transform="translate(6.511 7.214)" fill="#9ebcff"/>
+        <g id="组_9853" data-name="组 9853" transform="translate(6.511 7.214)">
+          <g id="矩形_4762" data-name="矩形 4762" transform="translate(0)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4763" data-name="矩形 4763" transform="translate(16.148)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4766" data-name="矩形 4766" transform="translate(32.556)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.408" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4767" data-name="矩形 4767" transform="translate(48.444)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4809" data-name="矩形 4809" transform="translate(6.511 15.996)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4810" data-name="矩形 4810" transform="translate(22.659 15.996)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4811" data-name="矩形 4811" transform="translate(39.067 15.996)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.408" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4812" data-name="矩形 4812" transform="translate(54.955 15.996)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4813" data-name="矩形 4813" transform="translate(6.511 25.091)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4814" data-name="矩形 4814" transform="translate(22.659 25.091)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4815" data-name="矩形 4815" transform="translate(39.067 25.091)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.408" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4816" data-name="矩形 4816" transform="translate(54.955 25.091)" fill="#fff" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="组_9854" data-name="组 9854" transform="translate(6.511 34.187)">
+          <g id="矩形_4784" data-name="矩形 4784" transform="translate(0)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4785" data-name="矩形 4785" transform="translate(16.148)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4788" data-name="矩形 4788" transform="translate(32.556)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.408" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4789" data-name="矩形 4789" transform="translate(48.444)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4791" data-name="矩形 4791" transform="translate(0 9.095)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4792" data-name="矩形 4792" transform="translate(16.148 9.095)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4795" data-name="矩形 4795" transform="translate(32.556 9.095)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.408" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4796" data-name="矩形 4796" transform="translate(48.444 9.095)" fill="#fff" stroke="#2134b4" stroke-width="1">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4817" data-name="矩形 4817" transform="translate(6.511 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4818" data-name="矩形 4818" transform="translate(22.659 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4819" data-name="矩形 4819" transform="translate(39.067 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.408" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4820" data-name="矩形 4820" transform="translate(54.955 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <rect id="矩形_4821" data-name="矩形 4821" width="65.373" height="1.255" transform="translate(6.511 7.527)" fill="#a726ab"/>
+        <path id="路径_19047" data-name="路径 19047" d="M415.84,8.1,408.824,0V75.265l7.016,7.849Z" transform="translate(-408.824)" fill="#a726ab"/>
+      </g>
+      <g id="组_9888" data-name="组 9888" transform="translate(78.115 32.553)">
+        <path id="路径_18667-2" data-name="路径 18667" d="M63.4,0H0V75.5l7.221,7.614H74.038V6.88Z" transform="translate(0)" fill="#a726ab"/>
+        <rect id="矩形_4808-2" data-name="矩形 4808" width="65.373" height="53.946" transform="translate(6.511 7.214)" fill="#9ebcff"/>
+        <g id="组_9853-2" data-name="组 9853" transform="translate(6.511 7.214)">
+          <g id="矩形_4762-2" data-name="矩形 4762" transform="translate(0)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4763-2" data-name="矩形 4763" transform="translate(16.148)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4766-2" data-name="矩形 4766" transform="translate(32.556)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.408" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4767-2" data-name="矩形 4767" transform="translate(48.444)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4809-2" data-name="矩形 4809" transform="translate(6.511 15.996)" fill="#fff" stroke="#2134b4" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4810-2" data-name="矩形 4810" transform="translate(22.659 15.996)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4811-2" data-name="矩形 4811" transform="translate(39.067 15.996)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="16.408" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4812-2" data-name="矩形 4812" transform="translate(54.955 15.996)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4813-2" data-name="矩形 4813" transform="translate(6.511 25.091)" fill="#fff" stroke="#2134b4" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4814-2" data-name="矩形 4814" transform="translate(22.659 25.091)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4815-2" data-name="矩形 4815" transform="translate(39.067 25.091)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="16.408" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4816-2" data-name="矩形 4816" transform="translate(54.955 25.091)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="组_9854-2" data-name="组 9854" transform="translate(6.511 34.187)">
+          <g id="矩形_4784-2" data-name="矩形 4784" transform="translate(0)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4785-2" data-name="矩形 4785" transform="translate(16.148)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4788-2" data-name="矩形 4788" transform="translate(32.556)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.408" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4789-2" data-name="矩形 4789" transform="translate(48.444)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4791-2" data-name="矩形 4791" transform="translate(0 9.095)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4792-2" data-name="矩形 4792" transform="translate(16.148 9.095)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4795-2" data-name="矩形 4795" transform="translate(32.556 9.095)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.408" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4796-2" data-name="矩形 4796" transform="translate(48.444 9.095)" stroke="#fdffff" stroke-width="1" fill="url(#linear-gradient)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4817-2" data-name="矩形 4817" transform="translate(6.511 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4818-2" data-name="矩形 4818" transform="translate(22.659 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4819-2" data-name="矩形 4819" transform="translate(39.067 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="16.408" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4820-2" data-name="矩形 4820" transform="translate(54.955 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <rect id="矩形_4821-2" data-name="矩形 4821" width="65.373" height="1.255" transform="translate(6.511 7.527)" fill="#a726ab"/>
+        <path id="路径_19047-2" data-name="路径 19047" d="M415.84,8.1,408.824,0V75.265l7.016,7.849Z" transform="translate(-408.824)" fill="#a726ab"/>
+      </g>
+      <g id="组_9889" data-name="组 9889" transform="translate(0 32.553)">
+        <path id="路径_18667-3" data-name="路径 18667" d="M63.4,0H0V75.5l7.221,7.614H74.038V6.88Z" transform="translate(0)" fill="#a726ab"/>
+        <rect id="矩形_4808-3" data-name="矩形 4808" width="65.373" height="53.946" transform="translate(6.511 7.214)" fill="#9ebcff"/>
+        <g id="组_9853-3" data-name="组 9853" transform="translate(6.511 7.214)">
+          <g id="矩形_4762-3" data-name="矩形 4762" transform="translate(0)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4763-3" data-name="矩形 4763" transform="translate(16.148)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4766-3" data-name="矩形 4766" transform="translate(32.556)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.408" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4767-3" data-name="矩形 4767" transform="translate(48.444)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+            <rect width="16.929" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.095" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4809-3" data-name="矩形 4809" transform="translate(6.511 15.996)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4810-3" data-name="矩形 4810" transform="translate(22.659 15.996)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4811-3" data-name="矩形 4811" transform="translate(39.067 15.996)" fill="#fff" stroke="#2134b4" stroke-width="1">
+          <rect width="16.408" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4812-3" data-name="矩形 4812" transform="translate(54.955 15.996)" fill="#fff" stroke="#2134b4" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4813-3" data-name="矩形 4813" transform="translate(6.511 25.091)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4814-3" data-name="矩形 4814" transform="translate(22.659 25.091)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4815-3" data-name="矩形 4815" transform="translate(39.067 25.091)" fill="#fff" stroke="#2134b4" stroke-width="1">
+          <rect width="16.408" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4816-3" data-name="矩形 4816" transform="translate(54.955 25.091)" fill="#fff" stroke="#2134b4" stroke-width="1">
+          <rect width="16.929" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+        </g>
+        <g id="组_9854-3" data-name="组 9854" transform="translate(6.511 34.187)">
+          <g id="矩形_4784-3" data-name="矩形 4784" transform="translate(0)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4785-3" data-name="矩形 4785" transform="translate(16.148)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4788-3" data-name="矩形 4788" transform="translate(32.556)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.408" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4789-3" data-name="矩形 4789" transform="translate(48.444)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4791-3" data-name="矩形 4791" transform="translate(0 9.095)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4792-3" data-name="矩形 4792" transform="translate(16.148 9.095)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4795-3" data-name="矩形 4795" transform="translate(32.556 9.095)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.408" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.408" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4796-3" data-name="矩形 4796" transform="translate(48.444 9.095)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-15)">
+            <rect width="16.929" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="15.929" height="8.723" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4817-3" data-name="矩形 4817" transform="translate(6.511 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4818-3" data-name="矩形 4818" transform="translate(22.659 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4819-3" data-name="矩形 4819" transform="translate(39.067 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.408" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.408" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4820-3" data-name="矩形 4820" transform="translate(54.955 52.064)" fill="#c2dfff" stroke="#fdffff" stroke-width="1">
+          <rect width="16.929" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="15.929" height="30.05" fill="none"/>
+        </g>
+        <rect id="矩形_4821-3" data-name="矩形 4821" width="65.373" height="1.255" transform="translate(6.511 7.527)" fill="#a726ab"/>
+        <path id="路径_19047-3" data-name="路径 19047" d="M415.84,8.1,408.824,0V75.265l7.016,7.849Z" transform="translate(-408.824)" fill="#a726ab"/>
+      </g>
+      <g id="组_9890" data-name="组 9890" transform="translate(30.069 32.553)">
+        <path id="路径_18667-4" data-name="路径 18667" d="M78.244,0H0V75.5l8.911,7.614H91.372V6.88Z" transform="translate(0)" fill="#a726ab"/>
+        <rect id="矩形_4808-4" data-name="矩形 4808" width="80.678" height="53.946" transform="translate(8.036 7.214)" fill="#9ebcff"/>
+        <g id="组_9853-4" data-name="组 9853" transform="translate(8.036 7.214)">
+          <g id="矩形_4762-4" data-name="矩形 4762" fill="#dd48e2" stroke="#a725ac" stroke-width="1">
+            <rect width="20.893" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4763-4" data-name="矩形 4763" transform="translate(19.929)" fill="#dd48e2" stroke="#a725ac" stroke-width="1">
+            <rect width="20.893" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4766-4" data-name="矩形 4766" transform="translate(40.178)" fill="#dd48e2" stroke="#a725ac" stroke-width="1">
+            <rect width="20.25" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.25" height="8.095" fill="none"/>
+          </g>
+          <g id="矩形_4767-4" data-name="矩形 4767" transform="translate(59.785)" fill="#dd48e2" stroke="#a725ac" stroke-width="1">
+            <rect width="20.893" height="9.095" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.095" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4809-4" data-name="矩形 4809" transform="translate(8.036 15.996)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.893" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4810-4" data-name="矩形 4810" transform="translate(27.964 15.996)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.893" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4811-4" data-name="矩形 4811" transform="translate(48.214 15.996)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.25" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.25" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4812-4" data-name="矩形 4812" transform="translate(67.821 15.996)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.893" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4813-4" data-name="矩形 4813" transform="translate(8.036 25.091)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.893" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4814-4" data-name="矩形 4814" transform="translate(27.964 25.091)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.893" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4815-4" data-name="矩形 4815" transform="translate(48.214 25.091)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.25" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.25" height="8.723" fill="none"/>
+        </g>
+        <g id="矩形_4816-4" data-name="矩形 4816" transform="translate(67.821 25.091)" fill="#a726ab" stroke="#fdffff" stroke-width="1">
+          <rect width="20.893" height="9.723" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+        </g>
+        <g id="组_9854-4" data-name="组 9854" transform="translate(8.036 34.187)">
+          <g id="矩形_4784-4" data-name="矩形 4784" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.893" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4785-4" data-name="矩形 4785" transform="translate(19.929)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.893" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4788-4" data-name="矩形 4788" transform="translate(40.178)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.25" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.25" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4789-4" data-name="矩形 4789" transform="translate(59.785)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.893" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4791-4" data-name="矩形 4791" transform="translate(0 9.095)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.893" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4792-4" data-name="矩形 4792" transform="translate(19.929 9.095)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.893" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4795-4" data-name="矩形 4795" transform="translate(40.178 9.095)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.25" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.25" height="8.723" fill="none"/>
+          </g>
+          <g id="矩形_4796-4" data-name="矩形 4796" transform="translate(59.785 9.095)" fill="#dd48e2" stroke="#fdffff" stroke-width="1">
+            <rect width="20.893" height="9.723" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19.893" height="8.723" fill="none"/>
+          </g>
+        </g>
+        <g id="矩形_4817-4" data-name="矩形 4817" transform="translate(8.036 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="20.893" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="30.05" fill="none"/>
+        </g>
+        <g id="矩形_4818-4" data-name="矩形 4818" transform="translate(27.964 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="20.893" height="11.091" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="10.091" fill="none"/>
+        </g>
+        <g id="矩形_4819-4" data-name="矩形 4819" transform="translate(48.214 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="20.25" height="11.091" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.25" height="10.091" fill="none"/>
+        </g>
+        <g id="矩形_4820-4" data-name="矩形 4820" transform="translate(67.821 52.064)" fill="#dd48e2" stroke="#a726ab" stroke-width="1">
+          <rect width="20.893" height="31.05" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19.893" height="30.05" fill="none"/>
+        </g>
+        <g id="组_9856" data-name="组 9856" transform="translate(17.798 60.218)">
+          <rect id="矩形_4798" data-name="矩形 4798" width="60.75" height="21.955" transform="translate(0.042 0)" fill="url(#linear-gradient-27)"/>
+          <g id="矩形_4822" data-name="矩形 4822" transform="translate(29.934 0.941)" fill="#6683c4" stroke="#a726ab" stroke-width="1">
+            <rect id="fill" width="0.964" height="21.955" stroke="none"/>
+            <path d="M0,0.5h0.9642820954322815M0.5,0v21.954647064208984M0.9642820954322815,21.454647064208984h-0.9642820954322815M0.4642820954322815,21.954647064208984v-21.954647064208984" fill="none" clip-path="url(#clip)"/>
+          </g>
+          <g id="矩形_4823" data-name="矩形 4823" transform="translate(1.006 0)" fill="#6683c4" stroke="#a726ab" stroke-width="1">
+            <rect id="fill-2" width="60.268" height="0.941" stroke="none"/>
+            <path d="M0,0.4409133195877075h60.267669677734375M59.767669677734375,0v0.9409133195877075M60.267669677734375,0.5h-60.267669677734375M0.5,0.9409133195877075v-0.9409133195877075" fill="none" clip-path="url(#clip-2)"/>
+          </g>
+          <g id="矩形_4824" data-name="矩形 4824" transform="translate(0 0)" fill="#6683c4" stroke="#a726ab" stroke-width="1">
+            <rect width="1.405" height="22.896" stroke="none"/>
+            <rect x="0.5" y="0.5" width="0.405" height="21.896" fill="none"/>
+          </g>
+          <g id="矩形_4825" data-name="矩形 4825" transform="translate(59.988 0)" fill="#6683c4" stroke="#a726ab" stroke-width="1">
+            <rect width="1.286" height="22.896" stroke="none"/>
+            <rect x="0.5" y="0.5" width="0.286" height="21.896" fill="none"/>
+          </g>
+        </g>
+        <path id="路径_19047-4" data-name="路径 19047" d="M417.483,8.1,408.824,0V75.265l8.659,7.849Z" transform="translate(-408.824)" fill="#a726ab"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -1.92, -1.67)" filter="url(#_)">
+        <text id="_2" data-name="+" transform="matrix(-1, 0, 0, 1, 80.07, 31.71)" fill="#ff0440" font-size="21" font-family="SourceHanSansTW-Bold, Source Han Sans TW" font-weight="700"><tspan x="0" y="0">+</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

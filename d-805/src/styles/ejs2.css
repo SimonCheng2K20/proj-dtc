@@ -1,0 +1,124 @@
+@import "bootstrap.css";
+
+.cardHeader {
+  padding: 2px 1.25rem;
+}
+
+.pageLeftContent {
+  margin-top: 60px;
+}
+
+.e-filtermenudiv {
+  display: none;
+}
+
+.e-gridcontent {
+  min-height: 370px;
+}
+
+.e-grid .e-gridheader .e-icons:not(.e-icon-hide):not(.e-check) {
+  color: #fff;
+}
+
+.e-grid .e-gridheader .e-icons:not(.e-icon-hide):not(.e-check):not(.e-stop) {
+  color: #fff;
+}
+
+.e-grid .e-columnheader.e-wrap .e-fltr-icon .e-sortfilterdiv,
+.e-grid.e-wrap .e-columnheader .e-fltr-icon .e-sortfilterdiv {
+  margin: -24px 0 -29px 0 !important;
+}
+
+.e-grid .e-gridheader .e-sortfilter .e-headercelldiv,
+.e-grid .e-gridheader .e-stackedheadercelldiv,
+.e-grid .e-gridheader .e-headercell .e-headercelldiv.e-headerchkcelldiv {
+  padding: 0 0 0 0.4em !important;
+}
+
+.e-float-input.e-control-wrapper input:focus~label.e-float-text,
+.e-float-input.e-control-wrapper input:valid~label.e-float-text,
+.e-float-input.e-control-wrapper input~label.e-label-top.e-float-text,
+.e-float-input.e-control-wrapper input[readonly]~label.e-label-top.e-float-text,
+.e-float-input.e-control-wrapper input[disabled]~label.e-label-top.e-float-text,
+.e-float-input.e-control-wrapper input label.e-float-text.e-label-top,
+.e-float-input.e-control-wrapper.e-input-focus input~label.e-float-text,
+.e-float-input.e-input-focus input~label.e-float-text,
+.e-float-input input:valid~label.e-float-text,
+.e-float-input input[readonly]~label.e-label-top.e-float-text,
+.e-float-input input[disabled]~label.e-label-top.e-float-text,
+.e-float-input input label.e-float-text.e-label-top,
+.e-float-input input:focus~label.e-float-text,
+.e-float-input input~label.e-label-top.e-float-text,
+.e-schedule .e-timeline-view .e-more-indicator,
+.e-schedule .e-timeline-month-view .e-more-indicator,
+.e-schedule .e-vertical-view .e-time-cells-wrap table td,
+.e-schedule .e-vertical-view .e-work-cells,
+.e-schedule .e-vertical-view .e-resource-cells,
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment .e-time,
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment .e-location,
+.e-schedule .e-vertical-view .e-header-cells,
+.e-control,
+.e-css,
+.e-pager {
+  font-size: 16px !important;
+}
+
+.e-listbox-wrapper,
+.e-radio+label .e-label,
+.e-btn .e-btn-icon,
+.e-css.e-btn .e-btn-icon,
+.e-multi-select-wrapper input[type="text"],
+input.e-input,
+textarea.e-input,
+.e-input-group,
+.e-input-group.e-control-wrapper,
+.e-dialog .e-dlg-content,
+.e-schedule .e-vertical-view .e-day-wrapper .e-appointment .e-subject,
+.e-toolbar .e-tbar-btn .e-tbar-btn-text,
+.q-tab__label,
+.q-btn,
+.q-field__label,
+.e-grid .e-rowcell,
+.e-grid .e-headercelldiv,
+.q-radio__label,
+.e-treeview .e-list-text,
+.q-field,
+.e-schedule .e-month-view .e-content-wrap,
+.e-schedule .e-month-view .e-date-header-wrap,
+.e-btn,
+.e-css.e-btn {
+  font-size: 16px !important;
+}
+
+.e-more-popup-wrapper .e-header-day,
+.e-schedule .e-timeline-view .e-resource-text,
+.e-schedule .e-timeline-month-view .e-resource-text,
+.e-schedule .e-timeline-view .e-date-header-wrap,
+.e-schedule .e-timeline-month-view .e-date-header-wrap,
+.e-schedule .e-month-view .e-appointment .e-appointment-details .e-subject,
+.e-schedule .e-vertical-view .e-header-cells .e-header-day {
+  font-size: 17px !important;
+}
+
+.e-schedule .e-month-view .e-appointment .e-appointment-details .e-time {
+  font-size: 15px !important;
+}
+
+.text-subtitle2 {
+  font-size: 1.2rem !important;
+  line-height: 1.7rem !important;
+}
+
+.e-columnheader {
+  color: #fff;
+}
+
+.e-grid .e-headercell,
+.e-grid .e-detailheadercell {
+  background-color: #343a40 !important;
+  border-color: #454d55 !important;
+}
+
+.e-btn {
+  line-height: 1.5em !important;
+}

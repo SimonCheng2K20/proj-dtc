@@ -1,0 +1,129 @@
+@for $i from 1 through 48 {
+  .flex-#{$i} {
+    flex: $i 0 0;
+  }
+
+  .grid-col-#{$i} {
+    grid-template-columns: repeat($i, 1fr);
+  }
+
+  .grid-span-#{$i} {
+    grid-column: span $i;
+  }
+
+  .grid-column-span-#{$i} {
+    grid-column: $i / span 1;
+  }
+
+  .grid-row-#{$i} {
+    grid-template-rows: repeat($i, minmax(0, 1fr));
+  }
+}
+
+// .grid-row-from-#{$i} {
+//     grid-column: $i / span 1;
+//   }
+
+@for $i from 1 through 10 {
+  .w-#{$i * 10} {
+    width: #{$i * 10%};
+  }
+  .grid-col-start-#{$i} {
+    grid-column-start: #{$i};
+  }
+}
+
+@for $i from 1 through 40 {
+  .wpx-#{$i} {
+    width: #{$i * 19.5}px;
+  }
+  .wmpx-#{$i} {
+    min-width: #{$i * 19.5}px;
+  }
+}
+
+@for $i from 1 through 40 {
+  .wem-#{$i} {
+    width: #{$i * 1.5}em;
+  }
+  .wmem-#{$i} {
+    min-width: #{$i * 1.5}em;
+  }
+}
+
+.d-grid {
+  display: grid;
+}
+
+.k-input {
+  .input-group-append .input-group-text {
+    background-color: transparent !important;
+    color: #999 !important;
+    text-align: right;
+    border: none;
+    font-size: 12px;
+  }
+  .form-control {
+    border: none;
+  }
+  .input-group {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  &.no-border {
+    .input-group {
+      border: none;
+    }
+  }
+}
+
+.b-table-sticky-header {
+  .position-relative {
+    position: sticky !important;
+    top: 0 !important;
+  }
+}
+
+div.lightTheme {
+  .table.b-table {
+    > tbody {
+      tr {
+        &:hover{
+          td {
+            background-color: rgba(0, 123, 255, 0.3);
+            color: #fff;
+          }
+        }
+        &:focus{
+          td{
+            background-color: rgba(0, 123, 255, 0.5);
+            color: #fff;
+          }
+        }
+        &.table-active{
+          background-color: rgba(0, 123, 255, 0.7);
+        }
+      }
+    }
+  }
+}
+
+$custom-white: #fff; 
+
+$theme-colors: ();
+
+$custom-colors: (
+  "custom-white": $custom-white
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+.table-custom-white,
+.table-custom-white > td,
+.table-custom-white > th {
+  background: $custom-white;
+}
+
+.input-group-prepend {
+  align-self: flex-start;
+}

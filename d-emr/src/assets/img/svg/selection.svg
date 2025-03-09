@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="12" viewBox="0 0 17 12">
+  <defs>
+    <clipPath id="clip-selection">
+      <rect width="17" height="12"/>
+    </clipPath>
+  </defs>
+  <g id="selection" clip-path="url(#clip-selection)">
+    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M13.19,17.533l5.294-5.957a.921.921,0,0,1,1.413,0,1.237,1.237,0,0,1,0,1.593l-6,6.749a.921.921,0,0,1-1.38.033l-6.04-6.777a1.234,1.234,0,0,1,0-1.593.921.921,0,0,1,1.413,0Z" transform="translate(-4.687 -9.746)" fill="#2563eb"/>
+    <path id="Icon_ionic-ios-arrow-down_-_轮廓" data-name="Icon ionic-ios-arrow-down - 轮廓" d="M13.192,20.846a1.525,1.525,0,0,1-1.115-.487l-.008-.009-6.05-6.789a1.829,1.829,0,0,1,0-2.368,1.521,1.521,0,0,1,2.325-.006L13.19,16.63l4.841-5.447a1.521,1.521,0,0,1,2.327.008,1.833,1.833,0,0,1,0,2.364l-.011.012-6,6.744a1.522,1.522,0,0,1-1.121.534Zm-.233-1.3a.322.322,0,0,0,.232.1H13.2a.321.321,0,0,0,.238-.114l.011-.012,5.994-6.742a.636.636,0,0,0,0-.815.321.321,0,0,0-.494,0l-.012.014L13.19,18.436,7.43,11.966a.321.321,0,0,0-.492,0,.633.633,0,0,0-.006.816Z" transform="translate(-4.687 -9.746)" fill="#2563eb"/>
+  </g>
+</svg>

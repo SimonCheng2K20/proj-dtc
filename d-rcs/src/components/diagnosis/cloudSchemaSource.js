@@ -1,0 +1,176 @@
+  // 雲端
+  const history = {
+    Category: '門住診別',
+    ConditionCode: '主診斷碼',
+    ConditionCodeDisplay: '主診斷名稱',
+    ATC7Code: 'ATC7代碼',
+    ATC5Name: 'ATC5代碼', 
+    IngredientCode: '成分編碼',
+    IngredientName: '成分名稱',
+    MedicationCode: '藥品健保代碼',
+    MedicationCodeText: '藥品名稱',
+    DenominatorValue: '藥品規格量',
+    DenominatorUnit: '藥品規格單位',
+    DosageInstructionText: '用法用量',
+    DosageInstructionDateStart: '就醫日期',
+    DosageInstructionDateEnd: '慢連箋領藥日(住院用藥迄日)',
+    DoseQuantity: '藥品用量',
+    TimingDuration: '給藥日數',
+    DrugMultiMark: '複方註記',
+    ListIdentifier: '就醫序號',
+    OrganizationCode: '醫事機構代碼',
+    OrganizationName: '醫事機構簡稱',
+    ATC3Name: 'ATC3名稱',
+    RequesterOrgCode: '慢連箋原處方醫事機構代碼',
+    RequesterOrgName: '慢連箋原處方醫事機構簡稱',
+  }
+
+  const checking = {
+    Category: '門住診別',
+    ReferenceText: '費用年月',
+    PatientDepartment: '就醫科別代碼',
+    PatientDepartmentName: '就醫科別名稱',
+    ConditionCode: '主診斷碼',
+    ConditionName: '主診斷名稱',
+    PCategory: '檢查項目代碼',
+    PCategoryDisplay: '檢查項目名稱',
+    PCode: '醫令代碼',
+    PCodeDisplay: '醫令名稱',
+    BodySite: '診療部位',
+    PerformedPeriodStart: '執行時間-起(收件日期)',
+    PerformedPeriodEnd: '執行時間-迄(檢驗報告日期)',
+    Total: '醫令總量',
+    OrganizationCode: '醫事機構代碼',
+    OrganizationName: '醫事機構簡稱',
+    PPeriodStart: '就醫／檢查日期',
+  }
+
+  const recording = {
+    PatientId: '病人身分證號',
+    Category: '門住診別',
+    FeeYearMonth: '費用年月',
+    PatientDepartment: '就醫科別代碼',
+    PatientDepartmentName: '就醫科別名稱',
+    ConditionCode: '主診斷碼',
+    ConditionName: '主診斷名稱',
+    PCode: '手術明細代碼',
+    PCodeDisplay: '手術明細名稱',
+    BodySite: '診療部位',
+    StartDate: '執行時間-起',
+    EndDate: '執行時間-迄',
+    Total: '醫令總量',
+    CreatePractitionerId: '醫事機構代碼',
+    CreatePractitionerName: '醫事機構簡稱'
+  }
+
+  const operation = {
+    Category: '報告類別',
+    ReferenceText: '費用年月',
+    ConditionCode: '主診斷碼',
+    ConditionName: '主診斷名稱',
+    PCode: '牙醫處置代碼',
+    PCodeDisplay: '牙醫處置名稱',
+    BodySite: '診療部位',
+    StartDate: '執行時間-起',
+    EndDate: '執行時間-迄',
+    Summary: '醫令總量',
+    CreatePractitionerId: '醫事機構代碼',
+    CreatePractitionerName: '醫事機構簡稱',
+  }
+
+  const allergic = {
+    AssertedDate: '上傳日期',
+    OrganizationId: '醫療院所代碼',
+    OrganizationName: '醫療院所簡稱',
+    Status: '上傳註記',
+    Code: '過敏藥物',
+  }
+
+  const detecting = {
+    PatientId: '病人身分證號',
+    ReportCategory: '報告目錄',
+    Category: '門住診別',
+    PayDate: '費用年月',
+    PatientDepartment: '就醫科別代碼',
+    PatientDepartmentName: '就醫科別名稱',
+    ConditionCode: '主診斷碼',
+    ConditionName: '主診斷名稱',
+    BodySite: '診療部位',
+    ResultCategory: '檢查檢驗類別',
+    ResultCategoryDisplay: '檢查檢驗類別名稱',
+    DRCode: '醫令代碼',
+    DRCodeDisplay: '醫令名稱',
+    ResultCode: '檢驗項目',
+    ResultCodeDisplay: '檢驗方法',
+    ResultValue: '結果值',
+    ResultValueUnit: '結果單位',
+    ResultReferenceRange: '參考值',
+    Conclusion: '報告結果',
+    SpecimenCollectionMethod: '檢體採檢方法',
+    EffectivePeriodStart: '開立醫令日期',
+    EffectivePeriodEnd: '採檢/實際檢查日期',
+    IssuedDate: '報告日期',
+    CreatePractitionerId: '醫事機構代碼',
+    CreatePractitionerName: '醫事機構簡稱',
+    PerformerRoleSystem: '有無TAF認證',
+    ImageComment: '是否有影像資料'
+  }
+
+  const memo = {
+    OrganizationCode: '醫事機構代碼',
+    OrganizationName: '醫事機構簡稱',
+    PCode: '出院科別代碼',
+    PCodeDisplay: '出院科別名稱',
+    ConditionCode: '出院診斷碼',
+    ConditionDisplay: '出院診斷名稱',
+    StartDate: '住院日期-起',
+    EndDate: '住院日期-迄',
+    ReferenceText: '出院病摘檔案名稱',
+  }
+
+  const rehabilitation = {
+    Category: '門住診別',
+    ConditionCode: '主診斷碼',
+    ConditionName: '主診斷名稱',
+    PCode: '治療類別',
+    PCodeDisplay: '強度',
+    ReferenceText: '費用年月',
+    Total: '醫令數量',
+    PPeriodStart: '就醫日期(住院日期)',
+    PFollowUpDate: '治療結束日期',
+    StartDate: '執行日期-起',
+    EndDate: '執行日期-迄',
+    CreatePractitionerId: '醫事機構代碼',
+    CreatePractitionerName: '醫事機構簡稱',
+    BodySite: '診療部位'
+  }
+
+  const tradition = {
+    Name: '門住診別',
+    ConditionCode: '主診斷碼',
+    ConditionName: '主診斷名稱',
+    NumberOfRepeatsAllowed: '慢連籤',
+    MedicationCode: '健保代碼',
+    MedicationCodeText: '基準方名',
+    Ingredient: '效能名',
+    DosageInstructionText: '用法用量',
+    TimingDuration: '給藥日數',
+    Form: '劑型',
+    MaxDosePerAdministration: '給藥總量',
+    AuthoredOn: '就醫(調劑)日期',
+    OrganizationId: '醫事機構代碼',
+    OrganizationName: '醫事機構簡稱',
+    ListIdentifier: '就醫序號',
+  }
+
+export default {
+  history,
+  checking,
+  recording,
+  operation,
+  allergic,
+  detecting,
+  memo,
+  rehabilitation,
+  tradition
+}

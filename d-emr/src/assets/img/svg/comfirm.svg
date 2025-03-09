@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a9ce6"/>
+      <stop offset="1" stop-color="#2c7dce"/>
+    </linearGradient>
+    <clipPath id="clip-comfirm">
+      <rect width="90" height="90"/>
+    </clipPath>
+  </defs>
+  <g id="comfirm" clip-path="url(#clip-comfirm)">
+    <g id="组_6798" data-name="组 6798" transform="translate(-219.08 -6)">
+      <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M88.7,44.633A44.069,44.069,0,1,1,44.631.563,44.069,44.069,0,0,1,88.7,44.633Z" transform="translate(220.381 6.799)" fill="#fff"/>
+      <g id="组_4400" data-name="组 4400" transform="translate(228.288)">
+        <path id="Icon_awesome-check-circle-2" data-name="Icon awesome-check-circle" d="M74.01,37.368A36.724,36.724,0,1,1,37.286.562,36.765,36.765,0,0,1,74.01,37.368Z" transform="translate(-0.562 12.688)" fill="url(#linear-gradient)"/>
+        <text id="_" data-name="!" transform="translate(24.224 76)" fill="#fff" font-size="68" font-family="SourceHanSansTW-Bold, Source Han Sans TW" font-weight="700"><tspan x="0" y="0">!</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,649 @@
+[
+  {
+    "reportTitle": "腎藏科超音波",
+    "source": [
+      {
+        "title": "Kidney",
+        "columns": 2,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Size",
+            "key": "rightSize",
+            "type": "multiple",
+            "value": { "1": "3", "2": "4", "3": "3" },
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585296851281,
+            "multiple": { "cls": 3, "front": "Right", "end": "cm" }
+          },
+          {
+            "label": "Left",
+            "key": "leftSize",
+            "type": "multiple",
+            "value": { "1": "4", "2": "3", "3": "4" },
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585297146177,
+            "multiple": { "cls": 3, "front": "Left", "end": "cm" }
+          }
+        ],
+        "createTime": 1585296851281,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "Surface",
+        "columns": 2,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Right",
+            "key": "surfaceRight",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585529801219,
+            "options": [
+              { "text": "sr1", "value": "sr1", "disabled": false },
+              { "text": "sr2", "value": "sr2", "disabled": false }
+            ]
+          },
+          {
+            "label": "Left",
+            "key": "surfaceLeft",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585529803660,
+            "options": [
+              { "text": "sl1", "value": "sl1", "disabled": false },
+              { "text": "sl2", "value": "sl2", "disabled": false }
+            ]
+          }
+        ],
+        "createTime": 1585529801219,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "Echogenicity",
+        "columns": 2,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Right",
+            "key": "right",
+            "type": "select",
+            "value": "value2",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585297201413,
+            "options": [
+              { "text": "option1", "value": "value1", "disabled": false },
+              { "text": "option2", "value": "value2", "disabled": false }
+            ]
+          },
+          {
+            "label": "Left",
+            "key": "left",
+            "type": "select",
+            "value": "value1",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585297237555,
+            "options": [
+              { "text": "option1", "value": "value1", "disabled": false },
+              { "text": "option2", "value": "value2", "disabled": false }
+            ]
+          }
+        ],
+        "createTime": 1585297201413,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "Sinus",
+        "columns": 2,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Right",
+            "key": "sinusRight",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585529918100,
+            "options": [
+              { "text": "op1", "value": "va1", "disabled": true },
+              { "text": "op2", "value": "va2", "disabled": true }
+            ]
+          },
+          {
+            "label": "Left",
+            "key": "sinusLeft",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585529920590,
+            "options": [
+              { "text": "te1", "value": "va1", "disabled": true },
+              { "text": "te2", "value": "va2", "disabled": true }
+            ]
+          }
+        ],
+        "createTime": 1585529918101,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "Hydronephrosis",
+        "columns": 2,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Right",
+            "append": null,
+            "key": "hydronephrosisRight",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585545110225,
+            "options": [
+              { "text": "hy1", "value": "hy1", "disabled": false },
+              { "text": "hy2", "value": "hy2", "disabled": false }
+            ]
+          },
+          {
+            "label": "Left",
+            "append": null,
+            "key": "hydLeft",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585545164374,
+            "options": [
+              { "text": "hyd1", "value": "hyd1", "disabled": false },
+              { "text": "hyd2", "value": "hyd2", "disabled": false }
+            ]
+          }
+        ],
+        "createTime": 1585545110225,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": " ",
+        "columns": 1,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Diagnosis",
+            "append": null,
+            "key": "diagnosis",
+            "type": "textarea",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585548477912
+          },
+          { "label": "Comment", "append": "", "key": "comment", "type": "textarea", "value": "", "isFinish": false, "isReadOnly": false, "createTime": 1585548610078 }
+        ],
+        "createTime": 1585548477912,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      }
+    ]
+  },
+  {
+    "reportTitle": "產科超音波檢查報告",
+    "source": [
+      {
+        "title": " ",
+        "columns": 1,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Chief Complaint",
+            "append": null,
+            "key": "chiefcomplaint",
+            "type": "textarea",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585548702295
+          },
+          {
+            "label": "Clinical Diagnosis",
+            "append": null,
+            "key": "clinicaldiagnosis",
+            "type": "textarea",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585548757843
+          }
+        ],
+        "createTime": 1585548702295,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "LMPS",
+        "columns": 3,
+        "mode": "normal",
+        "items": [
+          { "label": "LMP", "append": null, "key": "lmp", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585548791682 },
+          { "label": "EDC(LMP)", "append": "", "key": "edclmp", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585548811541 },
+          { "label": "GA(LMP)", "append": "", "key": "galmp", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585548822505 }
+        ],
+        "createTime": 1585548791682,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "Ultrasound Findings",
+        "columns": 3,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Fetus No",
+            "append": null,
+            "key": "fetusno",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585548867082,
+            "options": [
+              { "text": "fetus1", "value": "fetus1", "disabled": false },
+              { "text": "fetus2", "value": "fetus2", "disabled": false }
+            ]
+          },
+          { "label": null, "append": null, "key": null, "type": "gap", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585548964920 },
+          { "label": null, "append": null, "key": null, "type": "gap", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585548970399 },
+          {
+            "label": "Presentation",
+            "append": null,
+            "key": "presentation",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585548974847,
+            "options": [
+              { "text": "pre1", "value": "pre1", "disabled": false },
+              { "text": "pre2", "value": "pre2", "disabled": false }
+            ]
+          },
+          {
+            "label": "FHB",
+            "append": null,
+            "key": "fhb",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585549028087,
+            "options": [
+              { "text": "fhb1", "value": "fhb1", "disabled": false },
+              { "text": "fhb2", "value": "fhb2", "disabled": false }
+            ]
+          },
+          {
+            "label": "Sex",
+            "append": "",
+            "key": "sex",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585549073196,
+            "options": [
+              { "text": "男性", "value": "m", "disabled": false },
+              { "text": "女性", "value": "f", "disabled": false }
+            ]
+          },
+          { "label": "BPD", "append": "mm", "key": "bpd", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549270529 },
+          { "label": "=", "append": "wks", "key": "bpdWks", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549309476 },
+          { "label": null, "append": null, "key": null, "type": "gap", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549332483 },
+          { "label": "OFD", "append": "mm", "key": "ofd", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549338352 },
+          { "label": "HC=", "append": "mm", "key": "hc", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549351728 },
+          { "label": "=", "append": "wks", "key": "hcWks", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549368683 },
+          { "label": "AC", "append": "mm", "key": "ac", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549383825 },
+          { "label": "=", "append": "wks", "key": "acWks", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549397281 },
+          { "label": "HC/AC", "append": "", "key": "hcac", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549415949 },
+          { "label": "FL", "append": "mm", "key": "fl", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549433058 },
+          { "label": "=", "append": "wks", "key": "flWks", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549440758 },
+          { "label": "EBW", "append": "gm", "key": "ebw", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549459710 }
+        ],
+        "createTime": 1585548867082,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "Placentae",
+        "columns": 3,
+        "mode": "normal",
+        "items": [
+          {
+            "label": "Grading",
+            "append": null,
+            "key": "grading",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585549500168,
+            "options": [
+              { "text": "grad1", "value": "grad1", "disabled": false },
+              { "text": "grad2", "value": "grad2", "disabled": false }
+            ]
+          },
+          {
+            "label": "Location",
+            "append": "",
+            "key": "location",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585549540720,
+            "options": [
+              { "text": "location1", "value": "location1", "disabled": false },
+              { "text": "location2", "value": "location2", "disabled": false }
+            ]
+          },
+          {
+            "label": "Thickness",
+            "append": "mm",
+            "key": "thickness",
+            "type": "select",
+            "value": "",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585549566343,
+            "options": [
+              { "text": "thick1", "value": "thick1", "disabled": false },
+              { "text": "thick2", "value": "thick2", "disabled": false }
+            ]
+          }
+        ],
+        "createTime": 1585549500168,
+        "oldIdx": null,
+        "tabs": { "key": "", "name": "" }
+      },
+      {
+        "title": "",
+        "columns": 5,
+        "mode": "normal",
+        "items": [
+          { "label": "AFI", "append": null, "key": "afi1", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549601041 },
+          { "label": "+", "append": null, "key": "af2", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549625707 },
+          { "label": "+", "append": "", "key": "af3", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549634453 },
+          { "label": "+", "append": "", "key": "af4", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549644067 },
+          { "label": "=", "append": "mm", "key": "af5", "type": "text", "value": "", "isFinish": true, "isReadOnly": false, "createTime": 1585549650975 }
+        ],
+        "createTime": 1585549601041,
+        "oldIdx": null,
+        "tabs": { "key": "te", "name": "test" }
+      }
+    ]
+  },
+  {
+    "reportTitle": "婦產科乳房超音波報告",
+    "source": [
+      {
+        "title": "",
+        "columns": 3,
+        "tabs": { "key": "", "name": "" },
+        "items": [
+          {
+            "label": "A. Masses",
+            "append": null,
+            "span": 1,
+            "key": "amsg",
+            "type": "select",
+            "value": "yes",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585556658705,
+            "options": [
+              { "text": "Yes", "value": "yes", "disabled": false },
+              { "text": "No", "value": "no", "disabled": false }
+            ]
+          }
+        ],
+        "createTime": 1585556658705,
+        "oldIdx": null
+      },
+      {
+        "title": "",
+        "columns": 3,
+        "tabs": { "key": "(1)", "name": "SIZE" },
+        "items": [
+          {
+            "label": "Size",
+            "append": null,
+            "span": 1,
+            "key": "height",
+            "type": "select",
+            "value": "10",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561377519,
+            "options": [
+              { "text": "s10", "value": "10", "disabled": false },
+              { "text": "s20", "value": "20", "disabled": false },
+              { "text": "s30", "value": "30", "disabled": false }
+            ]
+          },
+          {
+            "label": "X",
+            "append": null,
+            "span": 1,
+            "key": "width",
+            "type": "select",
+            "value": "20",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561627588,
+            "options": [
+              { "text": "10", "value": "10", "disabled": false },
+              { "text": "20", "value": "20", "disabled": false },
+              { "text": "30", "value": "30", "disabled": false }
+            ]
+          },
+          {
+            "label": "X",
+            "append": "mm",
+            "span": 1,
+            "key": "length",
+            "type": "select",
+            "value": "20",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561662608,
+            "options": [
+              { "text": "10", "value": "10", "disabled": false },
+              { "text": "20", "value": "20", "disabled": false },
+              { "text": "30", "value": "30", "disabled": false }
+            ]
+          },
+          {
+            "label": "Direction",
+            "append": "o'clock",
+            "span": 1,
+            "key": "direction",
+            "type": "select",
+            "value": "270",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561720472,
+            "options": [
+              { "text": "90", "value": "90", "disabled": false },
+              { "text": "180", "value": "180", "disabled": false },
+              { "text": "270", "value": "270", "disabled": false },
+              { "text": "360", "value": "360", "disabled": false }
+            ]
+          },
+          {
+            "label": "Distance to nipple",
+            "append": "mm",
+            "span": 1,
+            "key": "distance",
+            "type": "text",
+            "value": "ww",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561779802
+          }
+        ],
+        "createTime": 1585561377519,
+        "oldIdx": null
+      },
+      {
+        "title": "",
+        "columns": 3,
+        "tabs": { "key": "(2)", "name": "SIZE" },
+        "items": [
+          {
+            "label": "Size",
+            "append": null,
+            "span": 1,
+            "key": "sizeHeight2",
+            "type": "select",
+            "value": "20",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561845759,
+            "options": [
+              { "text": "s10", "value": "10", "disabled": false },
+              { "text": "s20", "value": "20", "disabled": false },
+              { "text": "s30", "value": "30", "disabled": false }
+            ]
+          },
+          {
+            "label": "X",
+            "append": null,
+            "span": 1,
+            "key": "sizeWidth2",
+            "type": "select",
+            "value": "20",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561966149,
+            "options": [
+              { "text": "10", "value": "10", "disabled": false },
+              { "text": "20", "value": "20", "disabled": false },
+              { "text": "30", "value": "30", "disabled": false }
+            ]
+          },
+          {
+            "label": "X",
+            "append": "mm",
+            "span": 1,
+            "key": "sizeLength",
+            "type": "select",
+            "value": "30",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585561996550,
+            "options": [
+              { "text": "10", "value": "10", "disabled": false },
+              { "text": "20", "value": "20", "disabled": false },
+              { "text": "30", "value": "30", "disabled": false }
+            ]
+          },
+          {
+            "label": "Direction",
+            "append": "o'clock",
+            "span": 1,
+            "key": "direction2",
+            "type": "select",
+            "value": "270",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585562036043,
+            "options": [
+              { "text": "90", "value": "90", "disabled": false },
+              { "text": "180", "value": "180", "disabled": false },
+              { "text": "270", "value": "270", "disabled": false },
+              { "text": "360", "value": "360", "disabled": false }
+            ]
+          },
+          {
+            "label": "Distance to nipple",
+            "append": "mm",
+            "span": 1,
+            "key": "distance2",
+            "type": "text",
+            "value": "r32",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585562074891
+          }
+        ],
+        "createTime": 1585561845759,
+        "oldIdx": null
+      },
+      {
+        "title": "",
+        "columns": 1,
+        "tabs": { "key": "", "name": "" },
+        "items": [
+          {
+            "label": "Shape",
+            "append": null,
+            "span": 1,
+            "key": "shape",
+            "type": "select",
+            "value": "b",
+            "isFinish": true,
+            "isReadOnly": false,
+            "createTime": 1585564647526,
+            "options": [
+              { "text": "a", "value": "a", "disabled": false },
+              { "text": "b", "value": "b", "disabled": false },
+              { "text": "c", "value": "c", "disabled": false },
+              { "text": "d", "value": "d", "disabled": false }
+            ]
+          },
+          {
+            "label": "Orientation",
+            "append": "",
+            "span": 1,
+            "key": "orientation",
+            "type": "select",
+            "value": "or2",
+            "isFinish": false,
+            "isReadOnly": false,
+            "createTime": 1585564708899,
+            "options": [
+              { "text": "orientation1", "value": "or1", "disabled": false },
+              { "text": "orientation2", "value": "or2", "disabled": false }
+            ]
+          }
+        ],
+        "createTime": 1585564647526,
+        "oldIdx": null
+      },
+      {
+        "title": "",
+        "columns": 1,
+        "tabs": { "key": "", "name": "" },
+        "items": [
+          { "label": null, "append": null, "span": 1, "key": null, "type": null, "value": "", "isFinish": false, "isReadOnly": false, "createTime": 1585706398169 }
+        ],
+        "createTime": 1585706398169,
+        "oldIdx": null
+      }
+    ]
+  }
+]

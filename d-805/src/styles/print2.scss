@@ -1,0 +1,160 @@
+$groundColor: #ccc;
+$borderWidth: 5px;
+$borderColor: #000;
+$borderLength: 3px;
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+  }
+  .noBreak {
+    break-inside: avoid;
+  }
+  .noPrint,
+  .b-toaster {
+    display: none;
+  }
+  .break-always {
+    page-break-after: always;
+    page-break-before: always;
+  }
+
+  .border-deco {
+    left: 0px;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: -1;
+    border: 5px solid #000;
+    // outline: solid #000 50px;
+    // outline-style: solid;
+    // outline-width: 5px;
+    // outline-color: #000;
+  }
+
+  // body {
+  //   &.A4 .border-deco {
+  //     width: 210mm;
+  //     height: 297mm;
+  //   }
+  //   &.B5 .border-deco {
+  //     width: 182mm;
+  //     height: 256mm;
+  //   }
+  //   &.B6 .border-deco {
+  //     width: 131mm;
+  //     height: 182mm;
+  //   }
+  // }
+}
+
+@page {
+  // size: A4 portrait;
+  margin: 4mm 0mm 0mm 0mm;
+  // page-break-inside: avoid;
+  // padding: 0.5cm;
+  // background-color: #000;
+  // size: 210mm 297mm;
+  // size: 125mm 176mm; // landscape
+}
+
+@page :first {
+  margin: 0mm;
+}
+
+@page :left {
+  margin-left: 0pt;
+}
+
+.page-header,
+.page-footer {
+  width: 100%;
+}
+.page-head {
+  bottom: 100%;
+}
+
+.page-footer {
+  bottom: 0;
+  left: 0;
+  text-align: right;
+  font-size: 21px;
+  // border-bottom: $borderWidth solid $borderColor;
+  display: table;
+  > div {
+    text-align: left;
+    display: inline-table;
+    padding: 0 15px 0 0;
+  }
+}
+
+#app.noPrint {
+  min-height: 100vh;
+}
+
+div.decoration {
+  > div {
+    position: fixed;
+    background-color: #111;
+    z-index: 100;
+
+    &::after {
+      position: fixed;
+      background-color: #111;
+      z-index: 100;
+      content: "";
+      display: block;
+    }
+
+    &.horizen,
+    &.horizen::after,
+    &.left,
+    &.right {
+      width: $borderLength;
+      height: 100%;
+      top: 0;
+    }
+
+    &.left,
+    &.horizen {
+      left: 0;
+    }
+
+    &.right,
+    &.horizen::after {
+      right: 0;
+    }
+
+    &.vertical,
+    &.vertical::after,
+    &.top,
+    &.bottom {
+      width: 100%;
+      height: $borderLength;
+      left: 0;
+    }
+
+    &.top,
+    &.vertical {
+      top: 0;
+    }
+
+    &.bottom,
+    &.vertical::after {
+      bottom: 0;
+    }
+  }
+}
+
+.break-after {
+  page-break-after: always;
+}
+
+.break-before {
+  page-break-before: always;
+}
+
+#print_parts {
+  font-family: "DFKai-SB";
+}

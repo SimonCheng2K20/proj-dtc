@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="34" viewBox="0 0 21 34">
+  <defs>
+    <clipPath id="clip-more_info">
+      <rect width="21" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="more_info" clip-path="url(#clip-more_info)">
+    <g id="组_13059" data-name="组 13059" transform="translate(-955.643 -816.795)">
+      <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M18.5,15.138l-6.87-6.765a1.26,1.26,0,0,1,0-1.806,1.322,1.322,0,0,1,1.838,0l7.784,7.665A1.263,1.263,0,0,1,21.287,16l-7.816,7.718a1.319,1.319,0,0,1-1.838,0,1.26,1.26,0,0,1,0-1.806Z" transform="translate(981.285 817.358) rotate(90)" fill="#ff2ca3"/>
+      <path id="Icon_ionic-ios-arrow-forward-2" data-name="Icon ionic-ios-arrow-forward" d="M18.5,14.336l-6.87-6.158a1.077,1.077,0,0,1,0-1.644,1.418,1.418,0,0,1,1.838,0l7.784,6.977a1.077,1.077,0,0,1,.038,1.6l-7.816,7.026a1.414,1.414,0,0,1-1.838,0,1.077,1.077,0,0,1,0-1.644Z" transform="translate(980.482 806.977) rotate(90)" fill="#fff"/>
+      <path id="Icon_ionic-ios-arrow-forward-3" data-name="Icon ionic-ios-arrow-forward" d="M18.5,13.71l-6.87-5.684a.946.946,0,0,1,0-1.517,1.509,1.509,0,0,1,1.838,0l7.784,6.441a.945.945,0,0,1,.038,1.481l-7.816,6.485a1.5,1.5,0,0,1-1.838,0,.946.946,0,0,1,0-1.517Z" transform="translate(979.856 827.739) rotate(90)" fill="#ff84e3"/>
+    </g>
+  </g>
+</svg>

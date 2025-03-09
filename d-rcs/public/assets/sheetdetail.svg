@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="34" viewBox="0 0 43 34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2550f1"/>
+      <stop offset="0.318" stop-color="#6585f6"/>
+      <stop offset="1" stop-color="#1f4cf1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="0.918" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.916" stop-color="#ececec"/>
+      <stop offset="1" stop-color="#85de99"/>
+    </linearGradient>
+    <clipPath id="clip-會診單">
+      <rect width="43" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="會診單" clip-path="url(#clip-會診單)">
+    <g id="组_5180" data-name="组 5180">
+      <path id="路径_13936" data-name="路径 13936" d="M-168.582-1157.194a5.165,5.165,0,0,1-5.094-5.234v-19.889a5.165,5.165,0,0,1,5.094-5.233h3.6a2.053,2.053,0,0,1,2-1.665h18.764a2.053,2.053,0,0,1,2,1.665h4.208a5.165,5.165,0,0,1,5.094,5.233v19.889a5.165,5.165,0,0,1-5.094,5.234Z" transform="translate(174.797 1190.205)" fill="#afcdff"/>
+      <path id="路径_13935" data-name="路径 13935" d="M-168.676-1158.625a5,5,0,0,1-5-5v-19a5,5,0,0,1,5-5h4.519a2,2,0,0,1,1.959-1.59h17.435a2,2,0,0,1,1.959,1.59h4.13a5,5,0,0,1,5,5v19a5,5,0,0,1-5,5Z" transform="translate(174.797 1191.637)" fill="url(#linear-gradient)"/>
+      <g id="矩形_5179" data-name="矩形 5179" transform="translate(3.289 5.287)" stroke="#fff" stroke-width="2.3" fill="url(#linear-gradient-2)">
+        <rect width="35.664" height="25.787" rx="2" stroke="none"/>
+        <rect x="1.15" y="1.15" width="33.364" height="23.487" rx="0.85" fill="none"/>
+      </g>
+      <g id="组_5118" data-name="组 5118" transform="translate(-17889.453 16848.313)">
+        <path id="路径_13934" data-name="路径 13934" d="M-18.574,38.317v-.13c0-2.989,1.268-5.486,4.165-6.09a3.161,3.161,0,0,1-1.906-2.878,3.216,3.216,0,0,1,3.264-3.166,3.216,3.216,0,0,1,3.264,3.166A3.161,3.161,0,0,1-11.694,32.1c2.9.6,4.164,3.1,4.164,6.09l.012.113c-.069-.032-10.068.019-10.778.019Z" transform="translate(17914.891 -16861.721)" fill="#2d57f2"/>
+        <ellipse id="椭圆_163" data-name="椭圆 163" cx="2.031" cy="2.027" rx="2.031" ry="2.027" transform="translate(17899.814 -16834.646)" fill="#fff"/>
+      </g>
+      <g id="组_5117" data-name="组 5117" transform="translate(-17889.453 16848.313)">
+        <rect id="矩形_5180" data-name="矩形 5180" width="16.676" height="3.057" rx="1.529" transform="translate(17907.566 -16839.801)" fill="#85de99"/>
+        <rect id="矩形_5181" data-name="矩形 5181" width="16.676" height="3.057" rx="1.529" transform="translate(17907.566 -16835.859)" fill="#93ccf9"/>
+        <rect id="矩形_5182" data-name="矩形 5182" width="9.427" height="3.057" rx="1.529" transform="translate(17907.566 -16831.918)" fill="#eaa3c4"/>
+        <rect id="矩形_5183" data-name="矩形 5183" width="2.871" height="3.058" rx="1.436" transform="translate(17921.371 -16839.801)" fill="#7873c8" opacity="0.38"/>
+        <rect id="矩形_5184" data-name="矩形 5184" width="2.871" height="3.058" rx="1.436" transform="translate(17921.371 -16835.859)" fill="#7873c8" opacity="0.38"/>
+        <rect id="矩形_5185" data-name="矩形 5185" width="2.871" height="3.058" rx="1.436" transform="translate(17914.123 -16831.918)" fill="#7873c8" opacity="0.38"/>
+      </g>
+    </g>
+  </g>
+</svg>

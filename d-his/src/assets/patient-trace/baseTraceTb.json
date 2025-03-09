@@ -1,0 +1,139 @@
+[
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "發現病例",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "疾管局確認",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "提出申報",
+    "ApplyNo": "A1001C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "X光檢查",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "驗痰",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "驗痰結果",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "生化檢查",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "生化檢查結果",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "病理檢查或結核菌培養結果",
+    "ApplyNo": "",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "連續滿3個月管理照護費",
+    "ApplyNo": "A1003C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 1,
+    "TbDate": "",
+    "Event": "未連續滿3個月管理照護費",
+    "ApplyNo": "A1004C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 2,
+    "TbDate": "",
+    "Event": "連續滿6個月管理照護費",
+    "ApplyNo": "A1005C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 2,
+    "TbDate": "",
+    "Event": "未連續滿6個月管理照護費",
+    "ApplyNo": "A1006C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 3,
+    "TbDate": "",
+    "Event": "連續管理7個月管理照護費",
+    "ApplyNo": "A1007C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 3,
+    "TbDate": "",
+    "Event": "未連續管理7個月管理照護費",
+    "ApplyNo": "A1008C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 4,
+    "TbDate": "",
+    "Event": "連續管理10至12個月管理照護費",
+    "ApplyNo": "A1009C",
+    "EventStatus": false
+  },
+  {
+    "Id": 0,
+    "Step": 4,
+    "TbDate": "",
+    "Event": "未連續管理10至12個月管理照護費",
+    "ApplyNo": "A1010C",
+    "EventStatus": false
+  }
+]
+

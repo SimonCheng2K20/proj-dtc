@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="65" viewBox="0 0 400 65">
+  <defs>
+    <linearGradient id="linear-gradient" y1="-5.369" x2="1" y2="-5.369" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.15"/>
+    </linearGradient>
+    <clipPath id="clip-dtclogo">
+      <rect width="400" height="65"/>
+    </clipPath>
+  </defs>
+  <g id="dtclogo" clip-path="url(#clip-dtclogo)">
+    <text id="合華科技股份有限公司" transform="translate(95.058 35.604)" fill="#fff" font-size="29" font-family="SourceHanSansTW-Bold, Source Han Sans TW" font-weight="700" letter-spacing="0.051em"><tspan x="0" y="0">合華科技股份有限公司</tspan></text>
+    <text id="DATACOM_TECHNOLOGY_CORP." data-name="DATACOM TECHNOLOGY CORP." transform="translate(95.058 58.891)" fill="#fff" font-size="16.5" font-weight="700" letter-spacing="0.112em"><tspan x="0" y="0">DATACOM TECHNOLOGY CORP.</tspan></text>
+    <g id="组_4623" data-name="组 4623" transform="translate(1.899 2.802)">
+      <path id="路径_122" data-name="路径 122" d="M69.56,5.3H48.7V49.8H69.56l6.519-5.722V11.127ZM65.388,41.724H58.16V13.7h7.228Z" transform="translate(-34.231 -5.3)" fill="#fff"/>
+      <path id="路径_123" data-name="路径 123" d="M182.67,59.3h13.689l7.082,5.722V75.857h-9.908V67.592h-7.562V95.247h7.562V84.889h9.908V97.552l-6.73,5.957H182.67L175.5,97.153V65.632Z" transform="translate(-123.311 -44.997)" fill="#fff"/>
+      <path id="路径_124" data-name="路径 124" d="M126.043,27.3H104.8v8.53h10.472V73.235h10.91V35.83h10.471V27.3Z" transform="translate(-73.641 -21.475)" fill="#c60b28"/>
+      <rect id="矩形_1522" data-name="矩形 1522" width="43.852" height="8.742" transform="translate(8.31 51.654)" fill="url(#linear-gradient)"/>
+      <path id="路径_125" data-name="路径 125" d="M13.379,54.3S3.21,55.916,2.908,62.405c0,0-.594,7.6,11.455,13.987A109.828,109.828,0,0,0,70.086,88.131s16.064-.874,18.742-9.139c0,0,.654,9.241-19.011,11.1,0,0-32.815,1.776-55.93-11.6A26.65,26.65,0,0,1,.347,64.153C.318,64.128-2.9,54.3,13.379,54.3Z" transform="translate(-0.071 -41.32)" fill="#04aceb"/>
+      <text id="ACOM" transform="translate(18.134 58.956)" fill="#fff" font-size="6" font-family="Impact" letter-spacing="0.15em"><tspan x="0" y="0">DATACOM</tspan></text>
+    </g>
+  </g>
+</svg>

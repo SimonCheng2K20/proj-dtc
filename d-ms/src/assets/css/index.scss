@@ -1,0 +1,1000 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+$color1:#F4FCFC;
+$color2:#D8F1F3;
+$color3:#F2FFF7;
+$color4:#D8ECE0;
+$color5:#D0F5F9;
+$color6:#28ADCF;
+$color7:#E7F2F3;
+$color8:#35858D;
+$color9:#20978B;
+$color10:#EEF7F1;
+$color11:#15828E;
+
+$bgColor1:#FBFBFB;
+
+$fontColor1:#282828;
+$fontColor2:#0A2548;
+
+$border1:#69979D;
+
+$xs: 575.98px;
+$sm: 767px;
+$md: 992px;
+$lg: 1440px;
+$xl: 1920px;
+
+@mixin rwd($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  cursor: pointer;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C6CED1; 
+  cursor: pointer;
+}
+
+/* Handle on hover */
+
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: $bgColor1;
+  background-image: url('../img/紙本病歷掃描系統-登入頁面背景圖.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: $fontColor1;
+  text-decoration: none;
+}
+
+.noneChoose {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color:#ddd;
+  
+}
+
+.button {
+  padding: 8px 14px;
+  color: #fff;
+  border-width: 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 0 2px #444 inset;
+
+  &:hover {
+    box-shadow: 0 0 5px #444 inset;
+  }
+  &:active {
+    box-shadow: 0 0 8px #222 inset;
+  }
+}
+
+.buttonColor-1 {
+  background-color:#655DD4;
+  color:#fff;
+}
+
+.buttonColor-2 {
+  background-color:#fff;
+  color:#000;
+}
+
+.buttonColor-3 {
+  background-color:#F30F81;
+  color:#fff;
+}
+
+.buttonColor-4 {
+  background-color:#3653C4;
+  color:#fff;
+}
+
+.buttonColor-5 {
+  background-color:#FFF7DC;
+  color:#282828;
+}
+
+.buttonColor-6 {
+  background-color:#C874A9;
+  color:#fff;
+}
+
+.buttonColor-7 {
+  background-color:#FFE5F8;
+  color:#0A2548;
+}
+
+.buttonColor-8 {
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #D0F5F9 100%) 0% 0% no-repeat padding-box;
+  color:#0A2548;
+  font-size: 14px;
+}
+
+.buttonColor-9 {
+  background-color:#D6F3B7;
+  color:#0A2548;
+}
+
+.buttonColor-10 {
+  background-color:#C7FFE8;
+  color:#0A2548;
+}
+
+.buttonColor-11 {
+  background-color:#FDFFCE;
+  color:#0A2548;
+}
+
+.buttonColor-12 {
+  background-color:#2BA55E;
+  color:#fff;
+}
+
+.buttonColor-13 {
+  background-color:#F9E4BA;
+  color:#0A2548;
+}
+
+.buttonColor-14 {
+  background-color:#F6FFD8;
+  color:#0A2548;
+}
+
+.buttonColor-15 {
+  background-color:#DE5CC4;
+  color:#fff;
+}
+
+.buttonColor-16 {
+  background-color:#1B27CF;
+  color:#fff;
+}
+
+.buttonColor-17 {
+  background-color:#2A55FF;
+  color:#fff;
+}
+
+.buttonDisabled {
+  background-color: #eee !important;
+  color:#888 !important;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.el-card__body, .el-main {
+  padding: 10px;
+}
+
+.el-table {
+  border: 1px solid $border1;
+}
+
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {
+  border-bottom: 1px solid $border1;
+}
+
+.el-table--border .el-table__cell, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+  border-right: 1px solid $border1;
+  color:$color6;
+}
+
+.el-table tbody .el-table__cell {
+  font-size: 16px;
+  color:#006474;
+}
+
+.el-table th.el-table__cell {
+  background-color: $color4;
+  font-weight: bold;
+  font-size: 17px;
+  color:#000;
+  text-align: center;
+}
+
+.el-table--enable-row-transition .el-table__body td.el-table__cell {
+  padding: 6px 0;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+  background-color: $color9;
+  color:#fff;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  .loadingIcon {
+    font-size: 60px;
+    color: #fff;
+  }
+}
+
+.cardBox {
+  //box-shadow: 0 0 4px #888;
+
+  .cardBoxTitle {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: $color9;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .cardBoxContent {
+    background-color: #fff;
+    padding: 10px;
+  }
+}
+
+.cardBoxColor2 {
+  .cardBoxTitle {
+    background-color: $color10;
+    color: $fontColor2;
+  }
+}
+
+.header {
+  background: transparent linear-gradient(180deg, $color1 0%, $color2 100%) 0% 0% no-repeat padding-box;
+  height: 70px;
+  @include rwd($md) {
+    height: 40px;
+  }
+  .headerBox {
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color:$fontColor1;
+  }
+  .headerBoxLogo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .headerBoxLogoImg {
+    margin-right: 10px;
+    height: 100%;
+  }
+  .headerBoxLogoText {
+    font-size: 30px;
+    font-weight: bold;
+    @include rwd($md) {
+      font-size: 16px;
+    }
+  }
+  .headerBoxMenu {
+    display: flex;
+    align-items: center;
+    @include rwd($sm) {
+      display: none;
+    }
+  }
+  .headerBoxMenuItem {
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    @include rwd($md) {
+      font-size: 16px;
+    }
+  }
+  .headerBoxMenuMobile {
+    display: none;
+    @include rwd($sm) {
+      display: block;
+    }
+  }
+  .headerBoxMenuMobileIcon {
+    color:$fontColor1;
+    cursor: pointer;
+  }
+}
+
+.pathBox {
+  height: 40px;
+  background-color: $color3;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 0 1px #888;
+  position: relative;
+  z-index: 2;
+
+  .pathBoxList {
+    display: flex;
+    font-weight: bold;
+  }
+}
+
+.content {
+  width: 100%;
+  height: calc(100vh - 70px - 40px - 80px);
+  box-sizing: border-box;
+  padding: 10px 20px;
+  overflow-y: scroll;
+  background-color: #fff;
+
+  @include rwd($md) {
+    height: auto;
+    padding: 10px;
+  }
+}
+
+.searchBar {
+  margin-bottom: 10px;
+}
+
+.inputLabel {
+  border: 1px solid $border1;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .el-form-item {
+    margin-bottom: 0px;
+  }
+  .el-form-item__error {
+    top: 0%;
+    right:0px;
+    left:auto;
+    padding-right: 4px;
+  }
+  .el-form-item__content {
+    min-height: 40px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .el-form-item__label {
+    padding-left: 12px;
+    background-color: $color5;
+    height: 100%;
+    border-width: 0 1px 0 0;
+    border-color: $border1;
+    border-style: solid;
+    color:$fontColor2;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .el-textarea__inner,.el-input__inner {
+    border-width: 0px;
+    border-radius: 0px;
+  }
+  .el-input.is-disabled .el-input__inner {
+    background-color: #F2FEFF;
+    color: #606266;
+  }
+}
+
+.dialog {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .dialogBox {
+    position: relative;
+    z-index: 98;
+    box-shadow: 0 0 2px #222;
+    @include rwd($sm) {
+      width: 90vw !important;
+    }
+  }
+  
+  .dialogBoxTitle {
+    height: 40px;
+    padding: 0 20px;
+    background-color: $color6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    justify-content: space-between;
+  }
+
+  .dialogBoxTitleMenuItem {
+    margin-left: 6px;
+    cursor: pointer;
+  }
+
+  .dialogBoxContent {
+    max-height: 90vh;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+
+  .fullMode {
+    width: 100% !important;
+    height: calc(100vh);
+    background-color: #fff;
+    .dialogBoxContent {}
+  }
+  
+}
+
+.menuLoop {
+  display: flex;
+  .menuLoopBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+    &.router-link-active {
+      background-color: $color4;
+      box-shadow: 0 0 2px #888 inset;
+    }
+    &:hover {
+      box-shadow: 0 0 2px #888 inset;
+    }
+    &:hover > .menuLoopBoxChildren {
+      display: block;
+    }
+  }
+  .menuLoopBoxTitle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+  }
+  .menuLoopBoxChildren {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top:100%;
+    right:0;
+    z-index: 3;
+    background-color: $color3;
+  }
+}
+
+.menuLoopItem {
+  font-size: 16px;
+  width: 200px;
+  display: block;
+  position: relative;
+  border-width: 1px 1px 0px 1px;
+  border-color: $color4;
+  border-style: solid;
+  box-sizing: border-box;
+  cursor: pointer;
+  &.router-link-exact-active {
+    background-color: $color4;
+    box-shadow: 0 0 2px #888 inset;
+  }
+  &:last-child {
+    border-width: 1px;
+  }
+  &:hover > .menuLoopItemTitle {
+    background-color: $color4;
+    box-shadow: 0 0 2px #888 inset;
+  }
+  .menuLoopItemTitle {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &:hover > .menuLoopItemChildren {
+    display: block;
+  }
+  .menuLoopItemChildren {
+    display: none;
+    position: absolute;
+    top:0;
+    right:calc(-100% + -2px);
+  }
+}
+
+.floor {
+  height: 80px;
+  background-color: $color7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  @include rwd($md) {
+    height: auto;
+    display: block;
+  }
+
+  .floorBox {
+    color: $fontColor1;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    @include rwd($md) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .floorFAQ {
+    cursor: pointer;
+  }
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px - 80px);
+  overflow-y: auto;
+  background-color: transparent;
+  .loginImg {
+    margin-right: 100px;
+    @include rwd($md) {
+      display: none;
+    }
+  }
+  .loginBox {
+    width: 400px;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #bbb;
+    background-color: #fff;
+    margin-top: -80px;
+    @include rwd($md) {
+      padding: 30px;
+      margin-top: 0px;
+    }
+  }
+  .loginBoxTitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color:$color11;
+  }
+  .loginInputBox {
+    margin-bottom: 10px;
+  }
+  .loginInputBoxItem {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #69979D;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .loginInputBoxItemIcon {
+    width: 45px;
+    height: 45px;
+    background-color: #EFFDFF;
+  }
+  .loginInputBoxItemInput {
+    height: 100%;
+    .el-input__inner {
+      height: 100%;
+      border-radius: 0px;
+      border-width: 0px;
+    }
+  }
+  .loginInputMenuItem {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 4px #444 inset;
+    }
+  }
+  .loginInputMenuClear {
+    color: $fontColor2;
+    border:1px solid #69979D;
+  }
+  .loginInputMenuLogin {
+    background-color: #655DD4;
+    color:#fff;
+  }
+  .loginRefreshIdentify {
+    cursor: pointer;
+  }
+}
+
+.dataMedicalRecord {
+  .dataMedicalRecordLabel {
+    background-color: $color10;
+    color:$fontColor2;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px;
+    border: 1px solid $border1;
+    border-radius: 3px;
+  }
+  .dataMedicalRecordList {
+    display: flex;
+    margin-bottom: 10px;
+    @include rwd($sm) {
+      display: block;
+    }
+  }
+  .dataMedicalRecordListItem {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .dataMedicalRecordListItemRight {
+    margin-left: 10px;
+  }
+  .dataMedicalRecordTitle {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dataMedicalRecordTree {
+    padding: 0 10px;
+    height: calc(100vh - 70px - 40px - 20px - 80px - 40px - 20px - 20px);
+    overflow-y: scroll;
+  }
+  .dataMedicalRecordTreeItemMenu {
+    display: none;
+  }
+  .dataMedicalRecordTreeItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:hover .dataMedicalRecordTreeItemMenu {
+      display: flex;
+    }
+  }
+  .dataMedicalRecordTreeItemMenuItem {
+    width: 20px;
+    margin-left: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 2px #bbb;
+  }
+  .dataMedicalRecordDesc {
+    .el-form-item__label {
+      height: 200px;
+    }
+  }
+}
+
+.elFormItemNote {
+  .el-form-item__label {
+    height: 80px;
+  }
+}
+
+.FileCheckSearch {
+  .FileCheckSearchTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include rwd($sm) {
+      display: block;
+    }
+  }
+  .FileCheckSearchMenu {
+  }
+  .FileCheckSearchBarTitle {
+    font-weight: bold;
+  }
+  .FileCheckSearchInfoItem {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.indexBox {
+  border: 1px solid $border1;
+  border-radius: 4px;
+  overflow: hidden;
+  .indexBoxTitle {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: $color10;
+    padding: 10px;
+  }
+  .indexBoxContent {
+    padding: 10px;
+  }
+}
+
+.headerMenuMobile {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 98;
+
+  .headerMenuMobileBox {
+    width: 48vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 4px #888;
+  }
+
+  .headerMenuMobileBoxMember {
+    padding: 10px;
+    background-color: $color8;
+    color: #fff;
+  }
+
+  .HeaderMenuMobileItemTitle {
+    display: block;
+    padding: 10px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ddd;
+    color: $fontColor1;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .HeaderMenuMobileItemChildren {
+    margin-left: 20px;
+  }
+
+  .router-link-exact-active {
+    background-color: $color8;
+    color: #fff;
+  }
+
+  .HeaderMenuMobileItemTitleIcon {
+    transition-duration: 0.2s;
+  }
+
+  .isOpen {
+    transform: rotate(180deg);
+  }
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all .3s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(48vw);
+  opacity: 0;
+}
+
+.docSearchBox {
+  height: calc(100vh - 70px - 40px - 40px - 20px - 20px - 80px);
+  overflow-y: scroll;
+}
+
+.quickSearchBox {
+  .treeBox {
+    height: 300px;
+    .el-form-item__label {
+      height: 300px;
+    }
+    .el-tree {
+      width: 100%;
+      height: 300px;
+      overflow-y: scroll;
+    }
+  }
+}
+
+.fileBox {
+  .fileBoxList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fileBoxListItem {
+    width: calc(100% / 5 - 10px);
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #888;
+    margin: 0 10px 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+  }
+  .fileBoxListItemDelete {
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    font-size: 30px;
+    &:hover {
+      color:#f00;
+    }
+  }
+  .fileBoxListItemImg {
+    width: 100%;
+    height: 230px;
+  }
+  .chooseImgNo {
+    box-shadow: 0 0 6px #0058F1;
+  }
+}
+
+.imgViewBox {
+  width: 90vw;
+  height: 80vh;
+  .imgViewBoxInfo {
+    height: 40px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #888;
+    box-sizing: border-box;
+  }
+  .imgViewBoxMenuList {
+    height: 60px;
+    padding: 6px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #888;
+    box-sizing: border-box;
+  }
+  .imgViewBoxMenuListItem {
+    margin-right: 10px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 10px #888 inset;
+    }
+  }
+  .imgViewBoxContentImageListItem {
+    border: 1px solid #888;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .imgViewBoxContentImageListItemImage {
+    width: 100%;
+  }
+  .imgViewBoxContentImageListItemNumber {
+    text-align: center;
+  }
+  .chooseImgNo {
+    box-shadow: 0 0 6px #0058F1;
+  }
+  .imgViewBoxContent {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    height: calc(100% - 40px - 60px);
+  }
+  .imgViewBoxContentImageList {
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  .imgViewBoxContentView {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .imgViewBoxContentViewBox {
+    height: 100%;
+  }
+  .imgViewBoxContentViewBoxImage {
+    height: 100%;
+    position: relative;
+    //transition-duration: 0.2s;
+  }
+}

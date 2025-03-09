@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="36" viewBox="0 0 32 36">
+  <defs>
+    <clipPath id="clip-pdf">
+      <rect width="32" height="36"/>
+    </clipPath>
+  </defs>
+  <g id="pdf" clip-path="url(#clip-pdf)">
+    <g id="组_6811" data-name="组 6811" transform="translate(-290.041 -411.046)">
+      <g id="组_6723" data-name="组 6723" transform="translate(292.021 412.046)">
+        <path id="Icon_awesome-file-pdf" data-name="Icon awesome-file-pdf" d="M27.973,9.5V35.261A1.777,1.777,0,0,1,26.152,37H1.821A1.777,1.777,0,0,1,0,35.261V4.739A1.777,1.777,0,0,1,1.821,3H20Z" transform="translate(0 -3)" fill="#ffebce" stroke="#fc3c3c" stroke-width="1"/>
+        <path id="路径_13937" data-name="路径 13937" d="M-.172,0H24.864V15.571H-.172Z" transform="translate(0.179 10.775)" fill="#fc3c3c"/>
+        <text id="PDF-2" data-name="PDF" transform="translate(1.5 23.211)" fill="#fff" font-size="12" font-family="SourceHanSansTW-Bold, Source Han Sans TW" font-weight="700" letter-spacing="-0.08em"><tspan x="0" y="0">PDF</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

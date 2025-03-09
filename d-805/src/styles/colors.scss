@@ -1,0 +1,11 @@
+$colors: blue, indigo, purple, pink, red, yellow, green, teal, cyan, orange, pink;
+
+@each $color in $colors {
+  .bg-#{$color},
+  .btn-#{$color} {
+    background-color: var(--#{$color});
+  }
+  .text-#{$color} {
+    color: var(--#{$color});
+  }
+}

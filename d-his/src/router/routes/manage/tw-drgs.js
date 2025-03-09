@@ -1,0 +1,155 @@
+const children = [
+  {
+    path: 'Table-Procedure',
+    component: () => import('pages/manage/tw-drgs/Table-Procedure.vue'),
+    name: 'manage-twdrgs-Table-Procedure',
+    meta: { title: 'TW-DRGs 醫令查詢' },
+  },
+  {
+    path: 'Table-CasePay',
+    component: () => import('pages/manage/tw-drgs/Table-CasePay.vue'),
+    name: 'manage-twdrgs-Table-CasePay',
+    meta: { title: '論病例計酬 DRG 碼' },
+  },
+  {
+    path: 'Table-7.1',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.vue'),
+    name: 'manage-twdrgs-Table-7.1',
+    meta: { title: 'PRE MDC/MDC（附表7.1）' },
+  },
+  {
+    path: 'Table-7.1.1',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.1.vue'),
+    name: 'manage-twdrgs-Table-7.1.1',
+    meta: { title: '診斷碼限制（附表7.1.1）' },
+  },
+  {
+    path: 'Table-7.1.2',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.2.vue'),
+    name: 'manage-twdrgs-Table-7.1.2',
+    meta: { title: '手術碼限制（附表7.1.2）' },
+  },
+  {
+    path: 'Table-7.1.3',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.3.vue'),
+    name: 'manage-twdrgs-Table-7.1.3',
+    meta: { title: 'MDC 主診斷碼（附表7.1.3）' },
+  },
+  {
+    path: 'Table-7.1.3.1',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.3.1.vue'),
+    name: 'manage-twdrgs-Table-7.1.3.1',
+    meta: { title: 'MDC 主診斷碼（附表7.1.3.1）' },
+  },
+  {
+    path: 'Table-7.1.4',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.4.vue'),
+    name: 'manage-twdrgs-Table-7.1.4',
+    meta: { title: '合併症或併發症診斷碼（附表7.1.4）' },
+  },
+  {
+    path: 'Table-7.1.4.1',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.4.1.vue'),
+    name: 'manage-twdrgs-Table-7.1.4.1',
+    meta: { title: '主診斷代碼排除組別（附表7.1.4.1）' },
+  },
+  {
+    path: 'Table-7.1.4.2',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.4.2.vue'),
+    name: 'manage-twdrgs-Table-7.1.4.2',
+    meta: { title: '合併症或併發症主診斷碼（附表7.1.4.2）' },
+  },
+  {
+    path: 'Table-7.1.5-47601-2',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.5-47601-2.vue'),
+    name: 'manage-twdrgs-Table-7.1.5-47601-2',
+    meta: { title: '主診斷與手術不相關（附表7.1.5）47601-2 相關處置碼' },
+  },
+  {
+    path: 'Table-7.1.5-47701-4',
+    component: () => import('src/pages/manage/tw-drgs/Table-7.1.5-47701-4.vue'),
+    name: 'manage-twdrgs-Table-7.1.5-47701-4',
+    meta: { title: '主診斷與手術不相關（附表7.1.5）47701-4 相關處置碼' },
+  },
+  {
+    path: 'Table-7.1.6',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.6.vue'),
+    name: 'manage-twdrgs-Table-7.1.6',
+    meta: { title: 'MDC2 複雜次診斷範圍（附表7.1.6）' },
+  },
+  {
+    path: 'Table-7.1.7',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.7.vue'),
+    name: 'manage-twdrgs-Table-7.1.7',
+    meta: { title: 'MDC15 主要問題（附表7.1.7）' },
+  },
+  {
+    path: 'Table-7.1.8',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.8.vue'),
+    name: 'manage-twdrgs-Table-7.1.8',
+    meta: { title: 'MDC15 次要問題（附表7.1.8）' },
+  },
+  {
+    path: 'Table-7.1.9',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.9.vue'),
+    name: 'manage-twdrgs-Table-7.1.9',
+    meta: { title: 'MDC22 嚴重創傷（附表7.1.9）' },
+  },
+  {
+    path: 'Table-7.1.10',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.10.vue'),
+    name: 'manage-twdrgs-Table-7.1.10',
+    meta: { title: 'MDC24 各部位外傷診斷碼（附表7.1.10）' },
+  },
+  {
+    path: 'Table-7.1.12',
+    component: () => import('pages/manage/tw-drgs/Table-7.1.12.vue'),
+    name: 'manage-twdrgs-Table-7.1.12',
+    meta: { title: 'MDC8 開放性、閉鎖性骨折診斷碼（附表7.1.12）' },
+  },
+  {
+    path: 'Table-7.2',
+    component: () => import('pages/manage/tw-drgs/Table-7.2.vue'),
+    name: 'manage-twdrgs-Table-7.2',
+    meta: { title: 'Tw-DRGs 科系對照表（附表7.2）' },
+  },
+  {
+    path: 'Table-7.3',
+    component: () => import('pages/manage/tw-drgs/Table-7.3.vue'),
+    name: 'manage-twdrgs-Table-7.3',
+    meta: { title: 'Tw-DRGs權重表（附表7.3）' },
+  },
+  {
+    path: 'Table-4.0-VirtualCodeToDrg',
+    component: () => import('pages/manage/tw-drgs/Table-4.0-VirtualCodeToDrg.vue'),
+    name: 'manage-twdrgs-Table-4.0-VirtualCodeToDrg',
+    meta: { title: 'Tw-DRGs4.0虛擬碼對應DRG' },
+  },
+  {
+    path: 'Table-4.0-VirtualCode',
+    component: () => import('pages/manage/tw-drgs/Table-4.0-VirtualCode.vue'),
+    name: 'manage-twdrgs-Table-4.0-VirtualCode',
+    meta: { title: 'Tw-DRGs4.0虛擬碼' },
+  },
+  {
+    path: 'Table-Special',
+    component: () => import('pages/manage/tw-drgs/Table-Special.vue'),
+    name: 'manage-twdrgs-Table-Special',
+    meta: { title: '不適用 DRGs 案件特殊註記' },
+  },
+]
+
+export const TwDRGsRoutes = {
+  path: '/System/Manage/TwDRGs',
+  component: () => import('src/layouts/MainLayout.vue'),
+  redirect: { name: children[0].name },
+  meta: {
+    title: 'Tw-DRGs 查詢',
+    isMenu: true,
+    menuGroup: '系統管理.資料維護',
+    asideTitle: 'Tw-DRGs 查詢',
+    asideList: children.map((item) => ({ text: item.meta.title, to: { name: item.name } })),
+  },
+  children,
+}
+

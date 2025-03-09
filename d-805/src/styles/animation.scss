@@ -1,0 +1,77 @@
+.fade-enter-active {
+  animation: fade-in 0.35s;
+}
+.fade-leave-active {
+  animation: fade-in 0.35s reverse;
+}
+
+.zoom-enter-active {
+  animation: zoom-in 0.35s;
+}
+.zoom-leave-active {
+  animation: zoom-in 0.35s reverse;
+}
+
+.shake-active {
+  animation: shake 0.5s ease 0s;
+}
+
+.notice-paragraph {
+  animation: focus-text 4s ease 0s infinite;
+}
+
+@keyframes focus-text {
+  0%, 100% {
+    color: #fff;
+    background-color: #ea1241;
+  }
+  30% {
+    color: #ea1241;
+    background-color: var(--themeBgColor);
+  }
+}
+
+@keyframes zoom-in {
+  0% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

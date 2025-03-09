@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="遠距醫療會診平台，提供醫療院所線上多方會診，提升偏鄉地區的居民獲得更完善的醫療照顧!" />
+  <meta property="og:image" content="/assets/logo.png" />
+  <script>
+    window.versionTime = '<%- version %>';
+    document.title = '<%- publicTitle %>';
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    let isError = false
+    window.addEventListener('error', function (e) {
+      if (e.target.tagName === 'LINK' && isError === false) {
+        isError = true
+        location.reload()
+      }
+    }, true);
+  </script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

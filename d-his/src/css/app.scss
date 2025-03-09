@@ -1,0 +1,384 @@
+// app global css in SCSS form
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.margin-transition-with-error-message {
+  transition: margin 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.my-field-style {
+  // width: 100%;
+
+  .q-field__control:before {
+    border-color: #1e40af;
+  }
+
+  .q-field__before {
+    height: 100%;
+  }
+}
+
+.my-input-wrapper {
+  // error-message 過長時需要額外的 margin
+  transition: margin 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+
+  .wrapper-inner {
+    display: flex;
+
+    .label {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 0 4px;
+      border-width: 1px;
+      border-color: #1e40af;
+      border-right: 0;
+      // border-top-left-radius: 4px;
+      // border-bottom-left-radius: 4px;
+      background: #deecff;
+      color: black;
+      font-weight: bold;
+      white-space: normal;
+      transition: margin 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+
+      &.required-mark::before {
+        content: "*";
+        color: $negative;
+      }
+
+      &:has(+ .input > :first-child:not(.q-field, .my-validate-wrapper:not(.no-border))) {
+        border-right: 1px solid #1e40af;
+      }
+
+      &:has(+ .input > .q-field--error, + .input > .my-validate-wrapper--error) {
+        margin-bottom: 20px;
+      }
+    }
+
+    .input,
+    .range-input-0,
+    .range-input-1 {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: stretch;
+
+      &.border {
+        border: 1px solid #1e40af;
+        border-left: none;
+        .q-field__control {
+          &::before {
+            border-width: 0;
+            border-left-width: 1px !important;
+          }
+        }
+      }
+      .q-field {
+        width: 100%;
+
+        .q-field__control {
+          height: 100%;
+
+          .q-field__prepend,
+          .q-field__append {
+            height: 100%;
+            align-items: center;
+          }
+        }
+
+        .q-field__control:before {
+          border-color: #1e40af;
+        }
+
+        .q-field__inner {
+          background-color: white;
+        }
+
+        .q-field__input {
+          width: 100%;
+        }
+      }
+
+      .q-field--with-bottom {
+        &:not(.q-field--error) {
+          padding-bottom: 0px;
+        }
+      }
+    }
+
+    .range-connect {
+      display: flex;
+      align-items: center;
+      margin: 0 4px;
+    }
+  }
+
+  .cus-radio-box {
+    width: 100%;
+    border-color: #1e40af;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+  }
+
+  &.solidHeight {
+    .wrapper-inner {
+      .label,
+      .input,
+      .range-input-0,
+      .range-input-1 {
+        height: 40px;
+        overflow-y: hidden;
+      }
+    }
+  }
+
+  &.disable {
+    .wrapper-inner {
+      .label {
+        border-right: 1px dashed #1e40af !important;
+      }
+      .cus-radio-box {
+        border-style: dashed;
+      }
+    }
+  }
+
+  &.alignCenter {
+    .wrapper-inner {
+      .label,
+      .input {
+        align-items: center;
+      }
+    }
+  }
+
+  &.inputMultiple {
+    .wrapper-inner {
+      .input,
+      .range-input-0,
+      .range-input-1 {
+        .q-field {
+          .q-field__control {
+            .q-field {
+              .q-field__control {
+                &::before {
+                  border-left-width: 1px;
+                }
+              }
+            }
+          }
+          &:not(:nth-child(1)) {
+            .q-field__control {
+              &::before {
+                border-left-width: 1px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.q-field--with-bottom {
+  transition: padding 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.q-field {
+  .q-radio {
+    color: black;
+  }
+}
+
+.my-validate-wrapper {
+  position: relative;
+  transition: height 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+
+  &.my-validate-wrapper--error {
+    padding-right: 42px;
+  }
+
+  .wrapper-inner {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    transition: margin 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  .for-validate {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    z-index: 1;
+
+    .q-field__control {
+      height: 100%;
+    }
+
+    &.no-line {
+      .q-field__control:before {
+        border: none;
+      }
+    }
+  }
+}
+
+.header-btn {
+  background-color: #defffc !important;
+  border: 1px solid #6ea19c !important;
+  font-weight: bold !important;
+  color: #0b2647 !important;
+}
+
+.bg-search {
+  background-color: $primary;
+}
+
+.bg-clear {
+  background-color: $blue-grey;
+}
+
+.bg-add {
+  background-color: $secondary;
+}
+
+.bg-edit {
+  background-color: $primary;
+}
+
+.bg-delete {
+  background-color: $negative;
+}
+
+.bg-view {
+  background-color: $info;
+}
+
+.bg-print {
+  background-color: $pink-3;
+}
+
+.text-default {
+  color: black;
+}
+
+.q-table__container {
+  &.selected {
+    background-color: $amber-3;
+
+    .q-table__top {
+      background-color: $amber-3;
+    }
+  }
+}
+
+.q-table__top {
+  background-color: #cbe3f3;
+}
+
+.q-table--dense .q-table th:last-child,
+.q-table--dense .q-table td:last-child {
+  padding-right: 8px;
+}
+
+.q-table--dense .q-table th:first-child,
+.q-table--dense .q-table td:first-child {
+  padding-left: 8px;
+}
+
+.q-table > thead > tr > th {
+  background: #cbe3f3;
+  font-size: $body-font-size;
+  font-weight: bold;
+  text-align: center !important;
+  border-color: #215cba66;
+}
+
+.q-table--cell-separator tbody tr:not(:last-child) > th {
+  border-bottom-width: 1px;
+}
+
+.q-table > tbody > tr {
+  &.selected {
+    > td,
+    th {
+      background: $amber-3 !important;
+    }
+  }
+  > td,
+  th {
+    font-size: $body-font-size;
+    overflow: hidden;
+    background: #ffffff;
+    border-color: #215cba66;
+
+    .q-field {
+      width: 100%;
+    }
+
+    .q-field--with-bottom {
+      &:not(.q-field--error) {
+        padding-bottom: 0px;
+      }
+    }
+  }
+}
+
+.q-table__middle {
+  &:not(.has-child-table) > .q-table > tbody > tr {
+    &:nth-child(even) {
+      > td,
+      th {
+        background: #e7f2f3;
+      }
+    }
+  }
+  &.has-child-table > .q-table > tbody > tr {
+    &:nth-child(4n + 3) {
+      > td,
+      th {
+        background: #e7f2f3;
+      }
+    }
+  }
+}
+
+.q-table__bottom {
+  border-top: none;
+}
+
+.q-card {
+  > .q-card__section.my-card-title {
+    background: #cbe3f3;
+    padding: 6px 16px;
+    @apply font-bold text-xl;
+  }
+}
+
+textarea {
+  resize: none !important;
+}
+
+.q-textarea {
+  .q-field__control {
+    height: 100%;
+  }
+}
+
+@media print {
+  body > *:not(.print) {
+    display: none;
+  }
+
+  // .print {
+  //   display: initial;
+  // }
+  @page {
+    size: A4;
+    margin: 32px;
+  }
+}

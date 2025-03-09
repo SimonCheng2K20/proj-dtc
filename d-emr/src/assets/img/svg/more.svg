@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="32" viewBox="0 0 8 32">
+  <defs>
+    <clipPath id="clip-more">
+      <rect width="8" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="more" clip-path="url(#clip-more)">
+    <g id="组_6797" data-name="组 6797" transform="translate(-1892 -18)">
+      <circle id="椭圆_166" data-name="椭圆 166" cx="3" cy="3" r="3" transform="translate(1893 43)" fill="#fff"/>
+      <circle id="椭圆_167" data-name="椭圆 167" cx="3" cy="3" r="3" transform="translate(1893 19)" fill="#fff"/>
+      <circle id="椭圆_168" data-name="椭圆 168" cx="3" cy="3" r="3" transform="translate(1893 31)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

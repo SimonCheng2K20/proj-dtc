@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="458" viewBox="0 0 284 458">
+  <g id="Group_6238" data-name="Group 6238" transform="translate(-326 -2221)">
+    <g id="Group_188" data-name="Group 188" transform="translate(-1171 1688)">
+      <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(1518 951)" fill="none" stroke="#007dd5"
+        stroke-width="1">
+        <rect width="120" height="40" rx="20" stroke="none" />
+        <rect x="0.5" y="0.5" width="119" height="39" rx="19.5" fill="none" />
+      </g>
+      <text id="瞭解更多" transform="translate(1535 979)" fill="#007dd5" font-size="20" font-family="Microsoft JhengHei"
+        letter-spacing="0.05em">
+        <tspan x="0" y="0">瞭解更多</tspan>
+      </text>
+    </g>
+    <g id="Group_190" data-name="Group 190" transform="translate(-57 174)">
+      <text id="關於我們" transform="translate(402.5 2126)" fill="#5d5d5d" font-size="30" font-family="Microsoft JhengHei"
+        font-weight="600" letter-spacing="0.05em">
+        <tspan x="0" y="0">關於我們</tspan>
+      </text>
+      <line id="Line_16" data-name="Line 16" y1="80" transform="translate(385 2053)" fill="none" stroke="#3d63cb"
+        stroke-width="4" />
+      <text id="_ABOUT_US" data-name=" ABOUT US" transform="translate(403 2086)" fill="#3d63cb" font-size="40"
+        font-family="Microsoft JhengHei" font-weight="700">
+        <tspan x="0" y="0">ABOUT US</tspan>
+      </text>
+    </g>
+    <text
+      id="合華科技創立於民國七十六年_一直是以專業化的資訊服務為經營的方向_專業醫療背景的負責人與開發團隊_擁有優越的整合技術與經驗以及底層DICOM核心技術_可整合各種不同醫療儀器與各家HIS_PACS廠商的系統及有效解決各種疑難與技術問題_提供醫療院所更高規的管理與流程改造建議"
+      data-name="合華科技創立於民國七十六年，一直是以專業化的資訊服務為經營的方向，專業醫療背景的負責人與開發團隊，擁有優越的整合技術與經驗以及底層DICOM核心技術，可整合各種不同醫療儀器與各家HIS/PACS廠商的系統及有效解決各種疑難與技術問題，提供醫療院所更高規的管理與流程改造建議"
+      transform="translate(347 2347)" fill="#313131" font-size="16" font-family="Microsoft JhengHei"
+      letter-spacing="0.05em">
+      <tspan x="0" y="0">合華科技創立於民國七十六年，一</tspan>
+      <tspan x="0" y="32">直是以專業化的資訊服務為經營的</tspan>
+      <tspan x="0" y="64">方向，專業醫療背景的負責人與開</tspan>
+      <tspan x="0" y="96">發團隊，擁有優越的整合技術與經</tspan>
+      <tspan x="0" y="128">驗以及底層</tspan>
+      <tspan y="128" font-family="Microsoft JhengHei">DICOM</tspan>
+      <tspan y="128">核心技術，可整</tspan>
+      <tspan x="0" y="160">合各種不同醫療儀器與各家</tspan>
+      <tspan y="160" font-family="Microsoft JhengHei">HIS/</tspan>
+      <tspan font-family="Microsoft JhengHei">
+        <tspan x="0" y="192">PACS</tspan>
+        <tspan y="192" font-family="Microsoft JhengHei">廠商的系統及有效解決各種疑</tspan>
+      </tspan>
+      <tspan x="0" y="224">難與技術問題，提供醫療院所更高</tspan>
+      <tspan x="0" y="256">規的管理與流程改造建議</tspan>
+    </text>
+  </g>
+</svg>

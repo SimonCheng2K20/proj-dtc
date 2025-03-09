@@ -1,0 +1,22 @@
+[
+  {
+    "key": "AccessionNo",
+    "label": "檢查單號"
+  },
+  {
+    "key": "CreatedTime",
+    "label": "檢查日期"
+  },
+  {
+    "key": "PatientName",
+    "label": "姓名"
+  },
+  {
+    "key": "PatientId",
+    "label": "病歷號"
+  },
+  {
+    "key": "SEQ",
+    "label": "檢查項目"
+  }
+]

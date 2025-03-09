@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="166" height="112" viewBox="0 0 166 112">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3759bb"/>
+      <stop offset="1" stop-color="#103495"/>
+    </radialGradient>
+    <clipPath id="clip-player">
+      <rect width="166" height="112"/>
+    </clipPath>
+  </defs>
+  <g id="player" clip-path="url(#clip-player)">
+    <g id="组_4624" data-name="组 4624" transform="translate(1 1)">
+      <rect id="矩形_4957" data-name="矩形 4957" width="164" height="110" rx="8" fill="url(#radial-gradient)"/>
+      <path id="Icon_awesome-video" data-name="Icon awesome-video" d="M35.714,4.5H5.078A4.983,4.983,0,0,0,0,9.383V38.847A4.983,4.983,0,0,0,5.078,43.73H35.714a4.983,4.983,0,0,0,5.078-4.883V9.383A4.983,4.983,0,0,0,35.714,4.5Zm20.12,3.851L44.191,16.075v16.08l11.643,7.713a3.417,3.417,0,0,0,5.354-2.636V10.987A3.418,3.418,0,0,0,55.834,8.351Z" transform="translate(51.406 30.885)" fill="#91a0c8"/>
+    </g>
+  </g>
+</svg>

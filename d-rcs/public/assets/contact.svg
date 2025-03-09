@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="45" viewBox="0 0 69 45">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.891" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b1b1b1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.92" y1="0.521" x2="0.112" y2="0.716" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cbacac"/>
+    </linearGradient>
+    <filter id="XMLID_4_" x="23.466" y="7.958" width="23.8" height="26.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.92" y1="0.479" x2="0.112" y2="0.284" xlink:href="#linear-gradient-2"/>
+    <filter id="XMLID_4_2" x="4.308" y="7.958" width="23.8" height="26.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-contact">
+      <rect width="69" height="45"/>
+    </clipPath>
+  </defs>
+  <g id="contact" clip-path="url(#clip-contact)">
+    <g id="组_5197" data-name="组 5197">
+      <path id="路径_13951" data-name="路径 13951" d="M3.526,0H63.474A3.5,3.5,0,0,1,67,3.47V39.9a3.5,3.5,0,0,1-3.526,3.47H3.526A3.5,3.5,0,0,1,0,39.9V3.47A3.5,3.5,0,0,1,3.526,0Z" transform="translate(1.024 0.632)" fill="#f12f2f"/>
+      <g id="组_5196" data-name="组 5196" transform="translate(-46.488 -109)">
+        <g id="组_5193" data-name="组 5193" transform="matrix(0.996, -0.087, 0.087, 0.996, 58.899, 120.234)">
+          <g id="组_5189" data-name="组 5189" transform="translate(27.304)">
+            <ellipse id="椭圆_164" data-name="椭圆 164" cx="7.581" cy="7.806" rx="7.581" ry="7.806" transform="translate(0.628)" fill="#fff"/>
+            <path id="路径_13948" data-name="路径 13948" d="M2.333,0,3.518,2.487,0,2.545Z" transform="translate(0 11.724) rotate(-8)" fill="#fff"/>
+          </g>
+          <g id="_291695_whatsapp_logo_chat_message_bubble_icon" data-name="291695_whatsapp_logo_chat_message_bubble_icon" transform="matrix(-0.996, 0.087, -0.087, -0.996, 41.058, 14.863)">
+            <path id="路径_13941" data-name="路径 13941" d="M4.313,6.456A6.021,6.021,0,0,0,2.99,8.294a.457.457,0,0,0,0,.445c.227.324.265.344.511.647.171.223.3.425.247.607L2.9,12.356c-.076.162-.3.182-.568.2a3.156,3.156,0,0,1-.643-.041,3.305,3.305,0,0,1-1.25-2.022c-.21-1.718,1.245-4,2.7-5.414,1.456-1.434,3.706-2.786,5.3-2.4A3.008,3.008,0,0,1,10.2,4.2a2.134,2.134,0,0,1-.018.687c-.019.283-.075.485-.227.565L8.021,6.4c-.171.1-.341.02-.511-.2-.208-.3-.3-.424-.55-.748-.132-.182-.227-.3-.378-.323a1.065,1.065,0,0,0-.435.06A6.053,6.053,0,0,0,4.313,6.456Z" transform="translate(0 0)" fill="#f12f2f" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <rect id="矩形_5198" data-name="矩形 5198" width="14" height="2.2" transform="translate(87.646 135.637)" fill="#fbb"/>
+        <rect id="矩形_5199" data-name="矩形 5199" width="11" height="1.8" transform="translate(87.646 139.637)" fill="#fbb"/>
+        <g id="组_5194" data-name="组 5194" transform="translate(59.479 115.638)">
+          <path id="路径_13942" data-name="路径 13942" d="M0,.291H5.248A16.627,16.627,0,0,0,4.92,4.415c0,3.039.328,8.032.328,8.032H0Z" transform="translate(10.153 14.76)" fill="#deb27b"/>
+          <path id="路径_13943" data-name="路径 13943" d="M3039.371-1591.824l2.4,4.128,2.162-4.128s5.239.829,7.534,3.449a9.107,9.107,0,0,1,1.98,6.192H3030.59a8.4,8.4,0,0,1,1.594-6.192C3034.379-1591,3039.371-1591.824,3039.371-1591.824Z" transform="translate(-3028.939 1613.54)" fill="#fff"/>
+          <g id="组_5188" data-name="组 5188" transform="translate(4.621 1.769)">
+            <ellipse id="椭圆_12" data-name="椭圆 12" cx="8.224" cy="9.3" rx="8.224" ry="9.3" fill="#fbcb8e"/>
+          </g>
+          <g id="组_5186" data-name="组 5186" transform="translate(2.959 0)">
+            <path id="XMLID_3_" d="M53.318,33.635a.838.838,0,0,1-.776-.891c0-5.27-3.742-8.872-8.345-8.872s-8.345,3.607-8.345,8.872a.783.783,0,1,1-1.552,0c0-6.249,4.442-10.608,9.9-10.608s9.9,4.359,9.9,10.608A.838.838,0,0,1,53.318,33.635Z" transform="translate(-34.3 -22.137)" fill="#fff"/>
+          </g>
+          <g id="组_5187" data-name="组 5187" transform="translate(14.029 14.215) rotate(1)">
+            <path id="XMLID_2_" d="M.924,6.012C.63,6.012.319,6,0,5.969L.1,4.716A6.324,6.324,0,0,0,7.12,0L8.269.3A8.259,8.259,0,0,1,6.682,3.375,7.141,7.141,0,0,1,.924,6.012Z" fill="#fff"/>
+          </g>
+          <ellipse id="XMLID_1_" cx="1.753" cy="1.735" rx="1.753" ry="1.735" transform="translate(12.845 17.908)" fill="url(#linear-gradient)"/>
+          <g transform="matrix(1, 0, 0, 1, -12.99, -6.64)" filter="url(#XMLID_4_)">
+            <path id="XMLID_4_3" data-name="XMLID_4_" d="M0,.773A.762.762,0,0,1,.744,0H.752A4.1,4.1,0,0,1,4.814,4.145,4.124,4.124,0,0,1,.742,8.3H.733A.758.758,0,0,1-.009,7.53,6.517,6.517,0,0,0,.9,4.413,10.327,10.327,0,0,0,0,.773Z" transform="translate(33.49 13.96) rotate(7)" fill="url(#linear-gradient-2)"/>
+          </g>
+          <path id="路径_13945" data-name="路径 13945" d="M10300.149-11116a34.644,34.644,0,0,1-3.84,2.994c-1.543.937-1.869.572-1.47.751a4.629,4.629,0,0,0,2.793,0Z" transform="translate(-11220.765 10178.862) rotate(5)"/>
+          <path id="路径_13947" data-name="路径 13947" d="M24.925,1.65c4.421,0,5.282,1.019,7.283,3.647s.694,7.465.694,7.465c-.292-.225-.5-2.578-1.453-3.484a4.3,4.3,0,0,0-2.872-.726c-1.962,0-5.612-.161-6.488-1.651l-.171-.285-.171.285c-.876,1.49-2.3-.21-3.364,1.8s-1.21,3.832-1.5,4.058c0,0-.942-4.149.633-6.865S20.5,1.65,24.925,1.65Z" transform="translate(-12.161 0.078)"/>
+          <g transform="matrix(1, 0, 0, 1, -12.99, -6.64)" filter="url(#XMLID_4_2)">
+            <path id="XMLID_4_4" data-name="XMLID_4_" d="M.008,7.529A.762.762,0,0,0,.753,8.3H.762A4.1,4.1,0,0,0,4.824,4.156,4.124,4.124,0,0,0,.751,0H.743A.758.758,0,0,0,0,.772,6.517,6.517,0,0,1,.912,3.889,10.325,10.325,0,0,1,.008,7.529Z" transform="translate(19.11 22.2) rotate(173)" fill="url(#linear-gradient-3)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

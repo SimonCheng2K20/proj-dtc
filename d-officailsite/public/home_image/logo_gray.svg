@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="387.999" height="88.796"
+  viewBox="0 0 387.999 88.796">
+  <defs>
+    <filter id="Path_1" x="15.099" y="0" width="46.565" height="70.162" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="Path_2" x="54.469" y="16.77" width="47.156" height="69.82" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-2" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-2" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="Path_3" x="32.519" y="6.83" width="51.258" height="71.839" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-3" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-3" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <linearGradient id="linear-gradient" y1="-5.369" x2="1" y2="-5.369" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0" />
+      <stop offset="0.15" />
+    </linearGradient>
+    <filter id="Rectangle_2" x="8.669" y="60.55" width="63.766" height="28.246" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-4" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-4" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="Path_4" x="0" y="15.21" width="110.631" height="60.038" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-5" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-5" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="D" x="15.399" y="59.38" width="23" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-6" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-6" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="A" x="20.019" y="59.38" width="24" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-7" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-7" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="T" x="25.629" y="59.58" width="22" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-8" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-8" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="ACOM" x="28.909" y="59.38" width="38" height="28" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha" />
+      <feGaussianBlur stdDeviation="3" result="blur-9" />
+      <feFlood flood-color="#fff" flood-opacity="0.161" />
+      <feComposite operator="in" in2="blur-9" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g id="logo" transform="translate(-191.001 -12)">
+    <text id="合華科技股份有限公司" transform="translate(296 51)" fill="#555" font-size="23" font-family="Microsoft JhengHei"
+      font-weight="600">
+      <tspan x="0" y="0">合華科技股份有限公司</tspan>
+    </text>
+    <text id="DATACOM_TECHNOLOGY_CORP." data-name="DATACOM TECHNOLOGY CORP." transform="translate(298 78)" fill="#555"
+      font-size="18" font-family="Microsoft JhengHei" font-weight="700">
+      <tspan x="0" y="0">DATACOM TECHNOLOGY CORP.</tspan>
+    </text>
+    <g id="Group_4" data-name="Group 4" transform="translate(-654 277)">
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#Path_1)">
+        <path id="Path_1-2" data-name="Path 1"
+          d="M70.465,5.3H48.7V57.462H70.465l6.8-6.707V12.131ZM66.118,47.992H58.574V15.143h7.545Z"
+          transform="translate(-24.6 0.7)" fill="#3f0f7d" />
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#Path_2)">
+        <path id="Path_2-2" data-name="Path 2"
+          d="M182.983,59.3h14.283l7.39,6.707v12.7h-10.34V69.018H186.43v32.415h7.886V89.293h10.339v14.841l-7.017,6.986H182.983l-7.483-7.452V66.721Z"
+          transform="translate(-112.03 -36.53)" fill="#3f0f7d" />
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#Path_3)">
+        <path id="Path_3-2" data-name="Path 3" d="M126.969,27.3H104.8v10h10.929V81.139h11.4V37.3h10.929v-10Z"
+          transform="translate(-63.28 -14.47)" fill="#c60b28" />
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#Rectangle_2)">
+        <rect id="Rectangle_2-2" data-name="Rectangle 2" width="45.766" height="10.246"
+          transform="translate(17.67 66.55)" fill="url(#linear-gradient)" />
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#Path_4)">
+        <path id="Path_4-2" data-name="Path 4"
+          d="M13.959,54.3S3.34,56.194,3.03,63.8c0,0-.621,8.911,11.954,16.394,0,0,23.877,15.587,58.155,13.755,0,0,16.766-1.025,19.561-10.712,0,0,.683,10.836-19.84,13.01,0,0-34.247,2.08-58.372-13.6,0,0-10.712-5.247-14.127-16.8C.328,65.819-3.025,54.3,13.959,54.3Z"
+          transform="translate(8.93 -33.09)" fill="#04aceb" />
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#D)">
+        <text id="D-2" data-name="D" transform="translate(24.4 73.38)" fill="#fff" font-size="8" font-family="Impact">
+          <tspan x="0" y="0">D</tspan>
+        </text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#A)">
+        <text id="A-2" data-name="A" transform="translate(30.02 73.38)" fill="#fff" font-size="8" font-family="Impact">
+          <tspan x="0" y="0">A</tspan>
+        </text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#T)">
+        <text id="T-2" data-name="T" transform="translate(34.63 72.58)" fill="#fff" font-size="7" font-family="Impact">
+          <tspan x="0" y="0">T</tspan>
+        </text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 845, -265)" filter="url(#ACOM)">
+        <text id="ACOM-2" data-name="ACOM" transform="translate(38.91 73.38)" fill="#fff" font-size="8"
+          font-family="Impact">
+          <tspan x="0" y="0">ACOM</tspan>
+        </text>
+      </g>
+      <path id="Path_6036" data-name="Path 6036" d="M880.559-192.659v1H882v-1Z" transform="translate(-0.027)"
+        fill="#fff" />
+    </g>
+  </g>
+</svg>

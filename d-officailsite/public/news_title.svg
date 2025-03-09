@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="81" viewBox="0 0 160 81">
+  <g id="news_banner" transform="translate(-880 -252)">
+    <g id="Group_6288" data-name="Group 6288">
+      <text id="焦點訊息" transform="translate(880 294)" fill="#fff" font-size="40" font-family="Microsoft JhengHei"
+        font-weight="600">
+        <tspan x="0" y="0">焦點訊息</tspan>
+      </text>
+      <text id="首頁_焦點訊息" data-name="首頁/ 焦點訊息" transform="translate(900 327)" fill="#fff" font-size="18"
+        font-family="Microsoft JhengHei" font-weight="600">
+        <tspan x="0" y="0">首頁</tspan>
+        <tspan y="0" font-family="Microsoft JhengHei" font-weight="700">/ </tspan>
+        <tspan y="0">焦點訊息</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

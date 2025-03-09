@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="32" viewBox="0 0 40 32">
+  <defs>
+    <clipPath id="clip-participant">
+      <rect width="40" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="participant" clip-path="url(#clip-participant)">
+    <g id="组_5861" data-name="组 5861" transform="translate(-176.033 -90.972)">
+      <path id="路径_13832" data-name="路径 13832" d="M0,0S2.128.335,2.581,1.8a3.848,3.848,0,0,1-.744,3.017" transform="translate(209.5 100.585)" fill="none" stroke="#f12f2f" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="路径_13833" data-name="路径 13833" d="M0,0S3.088.64,3.8,3.249A7.855,7.855,0,0,1,2.91,8.586" transform="translate(210.829 97.801)" fill="none" stroke="#f12f2f" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Icon_awesome-user-friends" data-name="Icon awesome-user-friends" d="M11.084,17.278c3.574,0,6.466-3.361,6.466-7.514S14.658,2.25,11.084,2.25,4.619,5.611,4.619,9.764,7.511,17.278,11.084,17.278Zm4.434,2.147c-.121.048-8.616.1-8.868,0C2.979,19.425,0,22.886,0,27.153v1.932a3.022,3.022,0,0,0,2.771,3.22H19.4a3.022,3.022,0,0,0,2.771-3.22V27.153C22.169,22.886,19.19,19.425,15.518,19.425Zm8.088-3.1c3.06,0,5.542-2.885,5.542-6.44s-2.482-6.44-5.542-6.44-5.542,2.885-5.542,6.44S20.546,16.324,23.606,16.324Zm2.771,2.147H23.3A5.755,5.755,0,0,0,20.082,19.5c2.54,1.458,2.472,2.007,3.435,4.067a11,11,0,0,1,.5,5.205c0,.148-.029.288-.035.429h6.09a3.022,3.022,0,0,0,2.771-3.22c0-4.153-2.892-7.514-6.466-7.514Z" transform="translate(177.25 89.694)" fill="#f12f2f"/>
+    </g>
+  </g>
+</svg>
